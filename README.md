@@ -15,22 +15,22 @@ you can get cities.sql file and import it in your mysql database.
       "id":1,
       "title":"مرکزی",
       "slug":"Markazi",
-      "latitude":33.5093294,
-      "longitude":-92.396119
+      "latitude":34.6123,
+      "longitude":49.8547
     },
     {
       "id":2,
       "title":"گيلان",
       "slug":"Gilan",
-      "latitude":37.2898123,
-      "longitude":55.1375834
+      "latitude":37.2809,
+      "longitude":49.5924
     },
     {
-      "id":2,
-      "title":"گيلان",
-      "slug":"Gilan",
-      "latitude":37.1171617,
-      "longitude":49.5279996
+      "id":3,
+      "title":"مازندران",
+      "slug":"Mazandaran",
+      "latitude":36.2262393,
+      "longitude":52.5318604
     },
     ...
     
