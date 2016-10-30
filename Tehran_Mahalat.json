@@ -2,14 +2,18 @@
   "RECORDS" :
   [
        {
-          "name":"آرارات, آفتاب",
-          "slug":"Ararat, Sunshine",
-          "id":1
+          "name" : "آرارات, آفتاب",
+          "slug" : "Ararat, Sunshine",
+          "id" : 1 ,
+          "latitude" : 35.768046 ,
+         "longitude" : 51.400507
        },
        {
           "name":"آفریقا, آرامش",
           "slug":"Africa, Aramesh",
-          "id":2
+          "id": 2 ,
+          "latitude" : 35.777014,
+          "longitude" : 51.421818
        },
        {
           "name":"آرارات, آرارات",
@@ -19,22 +23,29 @@
        {
           "name":"آفریقا, امین کاج آبادی",
           "slug":"Africa, Amin Kaaj Abadi",
-          "id":4
+          "id" : 4,
+          "latitude" : 35.778284 ,
+         "longitude" : 51.422173
        },
        {
           "name":"آفریقا, تقاطع نلسون ماندلا (جردن، آفریقا) و رحیمی",
           "slug":"Africa, Nelson Mandela intersection (Jordan, Africa) and Rahim",
-          "id":5
+          "id":5,
+
        },
        {
           "name":"آفریقا, تقاطع مدرس و بلوار آرش",
           "slug":"Africa, lecturer and boulevard intersection of Arash",
-          "id":6
+          "id":6,
+         "latitude" : 35.770134,
+         "longitude":51.423816
        },
        {
           "name":"آلستوم, تقاطع جلال آل احمد و یادگار امام",
           "slug":"Alstom, the intersection of Jalal Ahmad and his legacy",
-          "id":7
+          "id":7,
+          "latitude" : 35.726489,
+          "longitude" : 51.349723
        },
        {
           "name":"آلستوم, تقاطع جلال آل احمد و جانبازان",
