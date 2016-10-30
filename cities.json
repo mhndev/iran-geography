@@ -46,7 +46,7 @@
     {
       "id":"9",
       "title":"محلات",
-      "slug":"Neighborhoods",
+      "slug":"Mahalat",
       "province_id":"2"
     },
     {
@@ -106,13 +106,13 @@
     {
       "id":"19",
       "title":"رودبار",
-      "slug":"ROODBAR",
+      "slug":"Rudbar",
       "province_id":"3"
     },
     {
       "id":"20",
       "title":"رودسر",
-      "slug":"City",
+      "slug":"Rudsar",
       "province_id":"3"
     },
     {
@@ -178,13 +178,13 @@
     {
       "id":"31",
       "title":"بابل",
-      "slug":"Babylon",
+      "slug":"Babol",
       "province_id":"4"
     },
     {
       "id":"32",
       "title":"بهشهر",
-      "slug":"to city",
+      "slug":"Behshahr",
       "province_id":"4"
     },
     {
@@ -214,13 +214,13 @@
     {
       "id":"37",
       "title":"قائم شهر",
-      "slug":"Vice City",
+      "slug":"Qaemshahr",
       "province_id":"4"
     },
     {
       "id":"38",
       "title":"نور",
-      "slug":"Light",
+      "slug":"Nur",
       "province_id":"4"
     },
     {
@@ -256,13 +256,13 @@
     {
       "id":"44",
       "title":"جويبار",
-      "slug":"Stream",
+      "slug":"Juybar",
       "province_id":"4"
     },
     {
       "id":"45",
       "title":"گلوگاه",
-      "slug":"Gorge",
+      "slug":"Galugah",
       "province_id":"4"
     },
     {
@@ -286,7 +286,7 @@
     {
       "id":"49",
       "title":"سيمرغ",
-      "slug":"Phoenix",
+      "slug":"Simorgh",
       "province_id":"4"
     },
     {
@@ -316,7 +316,7 @@
     {
       "id":"54",
       "title":"سراب",
-      "slug":"Mirage",
+      "slug":"Sarab",
       "province_id":"5"
     },
     {
@@ -334,7 +334,7 @@
     {
       "id":"57",
       "title":"ميانه",
-      "slug":"Middle",
+      "slug":"Mianeh",
       "province_id":"5"
     },
     {

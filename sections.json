@@ -4,7 +4,7 @@
     {
       "id":"2",
       "title":"مرکزي",
-      "slug":"Central",
+      "slug":"Markazi",
       "city_id":"2"
     },
     {
@@ -34,13 +34,13 @@
     {
       "id":"7",
       "title":"سربند",
-      "slug":"Snood",
+      "slug":"Sarband",
       "city_id":"8"
     },
     {
       "id":"8",
       "title":"زاليان",
-      "slug":"Albinism",
+      "slug":"Zalian",
       "city_id":"8"
     },
     {
