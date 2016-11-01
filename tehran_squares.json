@@ -1,0 +1,402 @@
+{
+  "RECORDS":[
+    {
+      "name":"میدان تیر",
+      "slug":"Tir Square",
+      "latitude":"35.636086",
+      "longitude":"51.406107"
+    },
+    {
+      "name":"میدان فردوسی",
+      "slug":"Ferdowsi Square",
+      "latitude":"35.701556",
+      "longitude":"51.419030"
+    },
+    {
+      "name":"میدان انقلاب",
+      "slug":"Enghelab Square",
+      "latitude":"35.700935",
+      "longitude":"51.391038"
+    },
+    {
+      "name":"میدان فلکه دوم صادقیه",
+      "slug":"Second Square Square Square",
+      "latitude":"35.722077",
+      "longitude":"51.335301"
+    },
+    {
+      "name":"میدان پرستار",
+      "slug":"Parastar Square",
+      "latitude":"35.689882",
+      "longitude":"51.483950"
+    },
+    {
+      "name":"میدان هروی",
+      "slug":"Heravi field",
+      "latitude":"35.767272",
+      "longitude":"51.476494"
+    },
+    {
+      "name":"میدان ونک",
+      "slug":"Vanak Square",
+      "latitude":"35.757474",
+      "longitude":"51.409887"
+    },
+    {
+      "name":"میدان قزوین",
+      "slug":"Qazvin Square",
+      "latitude":"35.675201",
+      "longitude":"51.394688"
+    },
+    {
+      "name":"میدان فاطمی(جهاد)",
+      "slug":"Fatemi Square (jihad)",
+      "latitude":"35.719931",
+      "longitude":"51.405559"
+    },
+    {
+      "name":"میدان تجریش",
+      "slug":"Tajrish Square",
+      "latitude":"35.806944",
+      "longitude":"51.428916"
+    },
+    {
+      "name":"میدان چهارم تهرانپارس",
+      "slug":"Chaharom Tehranpars Square",
+      "second_slug": "falake chaharom tehranpars",
+      "latitude":"35.751079",
+      "longitude":"51.537968"
+    },
+    {
+      "name":"میدان هفت تیر",
+      "slug":"Hafte-Tir Square",
+      "latitude":"35.717145",
+      "longitude":"51.426742"
+    },
+    {
+      "name":"میدان اول شهران",
+      "slug":"Shahran Square",
+      "latitude":"35.762923",
+      "longitude":"51.290062"
+    },
+    {
+      "name":"میدان شهدا",
+      "slug":"Martyrs' Square",
+      "latitude":"35.689578",
+      "longitude":"51.447472"
+    },
+    {
+      "name":"میدان فلکه یکم صادقیه",
+      "slug":"First Circle Square Square",
+      "latitude":"35.721836",
+      "longitude":"51.340943"
+    },
+    {
+      "name":"میدان جمهوری اسلامی",
+      "slug":"Jomhouri Eslami Square",
+      "latitude":"35.696698",
+      "longitude":"51.378530"
+    },
+    {
+      "name":"میدان امام حسن مجتبی",
+      "slug":"Imam Hassan Square",
+      "latitude":"35.673686",
+      "longitude":"51.473256"
+    },
+    {
+      "name":"میدان شوش",
+      "slug":"Shoosh field",
+      "latitude":"35.659777",
+      "longitude":"51.430853"
+    },
+    {
+      "name":"میدان قدس",
+      "slug":"Qods Square",
+      "latitude":"35.804787",
+      "longitude":"51.434122"
+    },
+    {
+      "name":"میدان مادر",
+      "slug":"Madar Square",
+      "latitude":"35.758478",
+      "longitude":"51.442685"
+    },
+    {
+      "name":"میدان سرو",
+      "slug":"Sarv Square",
+      "latitude":"35.778722",
+      "longitude":"51.362424"
+    },
+    {
+      "name":"میدان دربند",
+      "slug":"Darband Square",
+      "latitude":"35.820337",
+      "longitude":"51.425901"
+    },
+    {
+      "name":"میدان عدل",
+      "slug":"Adl Square",
+      "latitude":"35.755340",
+      "longitude":"51.328751"
+    },
+    {
+      "name":"میدان گلها",
+      "slug":"Golha Square",
+      "latitude":"35.721771",
+      "longitude":"51.399937"
+    },
+    {
+      "name":"میدان خراسان",
+      "slug":"Khorasan Square",
+      "latitude":"35.665341",
+      "longitude":"51.445503"
+    },
+    {
+      "name":"میدان باغ فیض",
+      "slug":"Garden of Grace",
+      "latitude":"35.744211",
+      "longitude":"51.327141"
+    },
+    {
+      "name":"میدان کتابی",
+      "slug":"The book",
+      "latitude":"35.751564",
+      "longitude":"51.444202"
+    },
+    {
+      "name":"میدان یاسر",
+      "slug":"Yasser field",
+      "latitude":"35.812838",
+      "longitude":"51.451210"
+    },
+    {
+      "name":"میدان امام حسین",
+      "slug":"Imam Hossein Square",
+      "latitude":"35.701865",
+      "longitude":"51.448261"
+    },
+    {
+      "name":"میدان اقدسیه",
+      "slug":"Aghdasieh field",
+      "latitude":"35.801658",
+      "longitude":"51.486766"
+    },
+    {
+      "name":"میدان الف",
+      "slug":"A field",
+      "latitude":"35.797574",
+      "longitude":"51.412028"
+    },
+    {
+      "name":"میدان باهنر",
+      "slug":"Bahonar Square",
+      "latitude":"35.810927",
+      "longitude":"51.469977"
+    },
+    {
+      "name":"میدان شهرری",
+      "slug":"ShahrRey Square",
+      "latitude":"35.590779",
+      "longitude":"51.437504"
+    },
+    {
+      "name":"میدان شاهد(پروین)",
+      "slug":"Shahed (Parvin) Square",
+      "latitude":"35.741910",
+      "longitude":"51.542332"
+    },
+    {
+      "name":"میدان رازی(گمرک)",
+      "slug":"Razi (Gomrok) Square",
+      "latitude":"35.666983",
+      "longitude":"51.396033"
+    },
+    {
+      "name":"میدان فلکه یکم تهرانپارس",
+      "slug":"Tehranpars Square",
+      "latitude":"35.726780",
+      "longitude":"51.525296"
+    },
+    {
+      "name":"میدان بهار شیراز",
+      "slug":"Spring field Shiraz",
+      "latitude":"35.718002",
+      "longitude":"51.431767"
+    },
+    {
+      "name":"میدان توحید",
+      "slug":"Tohid square",
+      "latitude":"35.705675",
+      "longitude":"51.377632"
+    },
+    {
+      "name":"میدان منیریه",
+      "slug":"Monirieh Square",
+      "latitude":"35.681012",
+      "longitude":"51.401623"
+    },
+    {
+      "name":"میدان سیزده آبان",
+      "slug":"Sizdah Aban Square",
+      "latitude":"35.684150",
+      "longitude":"51.483183"
+    },
+    {
+      "name":"میدان استاد معین",
+      "slug":"Moeen's Square",
+      "latitude":"35.698805",
+      "longitude":"51.347424"
+    },
+    {
+      "name":"میدان احتشامیه",
+      "slug":"Ahtshamyh field",
+      "latitude":"35.772276",
+      "longitude":"51.456690"
+    },
+    {
+      "name":"میدان اعدام",
+      "slug":"Edam Square",
+      "latitude":"35.667673",
+      "longitude":"51.415845"
+    },
+    {
+      "name":"میدان اختیاریه",
+      "slug":"Ekhtiarieh Square",
+      "latitude":"35.786861",
+      "longitude":"51.466545"
+    },
+    {
+      "name":"میدان ونک",
+      "slug":"Vanak Square",
+      "latitude":"35.757465",
+      "longitude":"51.410003"
+    },
+    {
+      "name":"میدان تسلیحات",
+      "slug":"Taslihat Square",
+      "latitude":"35.718777",
+      "longitude":"51.474318"
+    },
+    {
+      "name":"میدان فلسطین",
+      "slug":"Felestin Square",
+      "latitude":"35.706413",
+      "longitude":"51.403604"
+    },
+    {
+      "name":"میدان ولیعصر",
+      "slug":"Vali Asr Square",
+      "latitude":"35.711586",
+      "longitude":"51.407094"
+    },
+    {
+      "name":"میدان امامت",
+      "slug":"Imam Square",
+      "latitude":"35.713270",
+      "longitude":"51.489827"
+    },
+    {
+      "name":"میدان سپاه",
+      "slug":"Sepah field",
+      "latitude":"35.706760",
+      "longitude":"51.440496"
+    },
+    {
+      "name":"میدان بهارستان",
+      "slug":"Baharestan Square",
+      "latitude":"35.690596",
+      "longitude":"51.431487"
+    },
+    {
+      "name":"میدان آرژانتین",
+      "slug":"Argentina Square",
+      "latitude":"35.737049",
+      "longitude":"51.415396"
+    },
+    {
+      "name":"میدان راه آهن",
+      "slug":"Rahahan Square",
+      "latitude":"35.659248",
+      "longitude":"51.397957"
+    },
+    {
+      "name":"میدان پاستور",
+      "slug":"Pasteur Square",
+      "latitude":"35.690786",
+      "longitude":"51.392531"
+    },
+    {
+      "name":"میدان استقلال",
+      "slug":"Esteghlal Square",
+      "latitude":"35.758306",
+      "longitude":"51.513609"
+    },
+    {
+      "name":"میدان رسالت",
+      "slug":"Resalat Square",
+      "latitude":"35.736757",
+      "longitude":"51.487873"
+    },
+    {
+      "name":"میدان شعاع",
+      "slug":"The radius",
+      "latitude":"35.720381",
+      "longitude":"51.420867"
+    },
+    {
+      "name":"میدان صنعت",
+      "slug":"San'at Square",
+      "latitude":"35.754131",
+      "longitude":"51.368253"
+    },
+    {
+      "name":"میدان پانزده خرداد",
+      "slug":"Panzdah Khordad Square",
+      "latitude":"35.678436",
+      "longitude":"51.418832"
+    },
+    {
+      "name":"میدان پونک",
+      "slug":"Poonak Square",
+      "latitude":"35.759854",
+      "longitude":"51.335142"
+    },
+    {
+      "name":"میدان حر",
+      "slug":"Hor Square",
+      "latitude":"35.688145",
+      "longitude":"51.392863"
+    },
+    {
+      "name":"میدان نبوت",
+      "slug":"Nobovat Square",
+      "second_slug" : "Nabovat Square",
+      "latitude":"35.729827",
+      "longitude":"51.493668"
+    },
+    {
+      "name":"میدان مفتح",
+      "slug":"Mofateh field",
+      "latitude":"35.699539",
+      "longitude":"51.337375"
+    },
+    {
+      "name":"میدان بهمن",
+      "slug":"Feb field",
+      "latitude":"35.649369",
+      "longitude":"51.398102"
+    },
+    {
+      "name":"میدان امام خمینی",
+      "slug":"Imam Khomeini Square",
+      "latitude":"35.685755",
+      "longitude":"51.421637"
+    },
+    {
+      "name":"میدان فرهنگ",
+      "slug":"Farhang Square",
+      "latitude":"35.733809",
+      "longitude":"51.405975"
+    }
+  ]
+}
