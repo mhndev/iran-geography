@@ -239,6 +239,13 @@
       "longitude":54.4342138
     },
     {
+      "id":22,
+      "title":"یزد",
+      "slug":"Yazd",
+      "latitude":31.8974,
+      "longitude":54.3569
+    },
+    {
       "id":23,
       "title":"هرمزگان",
       "slug":"Hormozgan",
