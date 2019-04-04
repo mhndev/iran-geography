@@ -140,11 +140,32 @@
     "longitude": 57.0833628
   },
   {
+    "id": 6,
+    "title": "کرمانشاه",
+    "slug": "Kermanshah",
+    "latitude": 34.314167,
+    "longitude": 47.065
+  },
+  {
     "id": 18,
     "title": "كهگيلويه وبويراحمد",
     "slug": "Kohgiloyeh Boyerahmad",
     "latitude": 30.6509479,
     "longitude": 51.60525
+  },
+  {
+    "id": 28,
+    "title": "گلستان",
+    "slug": "Golestan",
+    "latitude": 37.2898123,
+    "longitude": 55.1375834
+  },
+  {
+    "id": 2,
+    "title": "گيلان",
+    "slug": "Gilan",
+    "latitude": 37.2809,
+    "longitude": 49.5924
   },
   {
     "id": 16,
@@ -189,24 +210,10 @@
     "longitude": 50.8456323
   },
   {
-    "id": 6,
-    "title": "کرمانشاه",
-    "slug": "Kermanshah",
-    "latitude": 34.314167,
-    "longitude": 47.065
+	"id":22,
+	"title":"یزد",
+	"slug":"Yazd",
+	"latitude":0,
+	"longitude":0
   },
-  {
-    "id": 28,
-    "title": "گلستان",
-    "slug": "Golestan",
-    "latitude": 37.2898123,
-    "longitude": 55.1375834
-  },
-  {
-    "id": 2,
-    "title": "گيلان",
-    "slug": "Gilan",
-    "latitude": 37.2809,
-    "longitude": 49.5924
-  }
 ]
