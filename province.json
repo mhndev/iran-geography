@@ -1,21 +1,21 @@
 [
   {
     "id": 4,
-    "title": "آذربايجان شرقي",
+    "title": "آذربایجان شرقی",
     "slug": "East Azarbaijan",
     "latitude": 37.9035733,
     "longitude": 46.2682109
   },
   {
     "id": 5,
-    "title": "آذربايجان غربي",
+    "title": "آذربایجان غربی",
     "slug": "Western Azerbaijan",
-    "latitude": 37.9035733,
-    "longitude": 46.2682109
+    "latitude": 37.7208556,
+    "longitude": 45.0126837
   },
   {
     "id": 25,
-    "title": "اردبيل",
+    "title": "اردبیل",
     "slug": "Ardabil",
     "latitude": 38.4853276,
     "longitude": 47.8911209
@@ -36,7 +36,7 @@
   },
   {
     "id": 17,
-    "title": "ايلام",
+    "title": "ایلام",
     "slug": "Ilam",
     "latitude": 33.2957618,
     "longitude": 46.670534
@@ -57,21 +57,21 @@
   },
   {
     "id": 30,
-    "title": "خراسان جنوبي",
+    "title": "خراسان جنوبی",
     "slug": "South Khorasan",
     "latitude": 32.5175643,
     "longitude": 59.1041758
   },
   {
     "id": 10,
-    "title": "خراسان رضوئ",
+    "title": "خراسان رضوی",
     "slug": "Khorasan Razavi",
-    "latitude": 32.5175643,
-    "longitude": 59.1041758
+    "latitude": 35.5160063,
+    "longitude": 59.2230448
   },
   {
     "id": 29,
-    "title": "خراسان شمالي",
+    "title": "خراسان شمالی",
     "slug": "North Khorasan",
     "latitude": 37.4710353,
     "longitude": 57.1013188
@@ -99,7 +99,7 @@
   },
   {
     "id": 12,
-    "title": "سيستان وبلوچستان",
+    "title": "سیستان وبلوچستان",
     "slug": "Sistan and Baluchistan",
     "latitude": 27.5299906,
     "longitude": 60.5820676
@@ -113,7 +113,7 @@
   },
   {
     "id": 27,
-    "title": "قزوين",
+    "title": "قزوین",
     "slug": "Qazvin",
     "latitude": 36.0881317,
     "longitude": 49.8547266
@@ -127,14 +127,14 @@
   },
   {
     "id": 13,
-    "title": "كردستان",
+    "title": "کردستان",
     "slug": "Kurdistan",
-    "latitude": 31.4360149,
-    "longitude": 49.041312
+    "latitude": 35.6680062,
+    "longitude": 47.0027204
   },
   {
     "id": 9,
-    "title": "كرمان",
+    "title": "کرمان",
     "slug": "Kerman",
     "latitude": 30.2839379,
     "longitude": 57.0833628
@@ -148,7 +148,7 @@
   },
   {
     "id": 18,
-    "title": "كهگيلويه وبويراحمد",
+    "title": "کهگیلویه و بویراحمد",
     "slug": "Kohgiloyeh Boyerahmad",
     "latitude": 30.6509479,
     "longitude": 51.60525
@@ -162,7 +162,7 @@
   },
   {
     "id": 2,
-    "title": "گيلان",
+    "title": "گیلان",
     "slug": "Gilan",
     "latitude": 37.2809,
     "longitude": 49.5924
@@ -171,8 +171,8 @@
     "id": 16,
     "title": "لرستان",
     "slug": "Lorestan",
-    "latitude": 31.4360149,
-    "longitude": 49.041312
+    "latitude": 33.4529829,
+    "longitude": 48.306995
   },
   {
     "id": 3,
@@ -192,19 +192,19 @@
     "id": 23,
     "title": "هرمزگان",
     "slug": "Hormozgan",
-    "latitude": 30.2839379,
-    "longitude": 57.0833628
+    "latitude": 27.138723,
+    "longitude": 55.1375834
   },
   {
     "id": 14,
     "title": "همدان",
     "slug": "Hamedan",
-    "latitude": 27.138723,
-    "longitude": 55.1375834
+    "latitude": 34.9277212,
+    "longitude": 48.6655971
   },
   {
     "id": 15,
-    "title": "چهارمحال وبختياری",
+    "title": "چهارمحال و بختیاری",
     "slug": "Chaharmahal and Bakhtiari ",
     "latitude": 31.9614348,
     "longitude": 50.8456323
@@ -213,7 +213,7 @@
 	"id":22,
 	"title":"یزد",
 	"slug":"Yazd",
-	"latitude":0,
-	"longitude":0
+	"latitude": 32.0025525,
+	"longitude": 54.687334
   },
 ]
