@@ -1,180 +1,57 @@
-## Iran country list of provinces, cities , ... , Tehran Neighbourhood
+# Iran Geography
 
+![Map of Iran showing its cat-like outline, provincial boundaries, and Tehran](assets/iran-map.png)
 
-[Iran Statistic Official WebSite (Markaz Amare Iran)](https://www.amar.org.ir/%D9%81%D8%B1%D8%A7%D8%AF%D8%A7%D8%AF%D9%87%D9%87%D8%A7/%D8%AA%D9%82%D8%B3%DB%8C%D9%85%D8%A7%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1%DB%8C)
+A geographic dataset of Iran’s administrative divisions and Tehran’s neighbourhoods, squares, and intersections. Records pair Persian names with Latin-script labels, often called **Finglish**.
 
-the key feature which is just exists in this repository is Finglish names.
+## Data files
 
-you can get cities.sql file and import it in your mysql database.
+| File | Coverage | Records | Coordinates |
+| --- | --- | ---: | --- |
+| [`province.json`](province.json) | Provinces (استان) | 31 | Yes |
+| [`cities.json`](cities.json) | Counties (شهرستان) | 362 | Yes |
+| [`sections.json`](sections.json) | Districts (بخش) | 632 | — |
+| [`towns.json`](towns.json) | Rural districts (دهستان) and towns | 3,381 | — |
+| [`Tehran_Mahalat.json`](Tehran_Mahalat.json) | Tehran neighbourhood and address labels | 2,459 | 5 records |
+| [`tehran_squares.json`](tehran_squares.json) | Tehran squares | 66 | Yes |
+| [`tehran_intersection.json`](tehran_intersection.json) | Tehran intersections | 766 | Yes |
+| [`tehran_intersection_alley_street.json`](tehran_intersection_alley_street.json) | Tehran street and alley junctions | 237 | Yes |
 
-`cities.json` contains county pins. Updated coordinates use populated-place or county reference points from [GeoNames](https://www.geonames.org/export/) and [Open Admin Data](https://github.com/open-admin-data/iran-administrative-divisions), both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Bandar-e Gaz pin and updated Tehran intersections use [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+## Quick start
 
-####   List of Iran provinces (استان) in json format
-```php
-{
-  "RECORDS":[
-    {
-      "id":1,
-      "title":"مرکزی",
-      "slug":"Markazi",
-      "latitude":34.6123,
-      "longitude":49.8547
-    },
-    {
-      "id":2,
-      "title":"گيلان",
-      "slug":"Gilan",
-      "latitude":37.2809,
-      "longitude":49.5924
-    },
-    {
-      "id":3,
-      "title":"مازندران",
-      "slug":"Mazandaran",
-      "latitude":36.2262393,
-      "longitude":52.5318604
-    },
-    ...
-    
-    ]
-  }
+Find Abadan County in the JSON dataset with [jq](https://jqlang.org/).
 
+```sh
+jq '.[] | select(.slug == "Abadan")' cities.json
 ```
 
-#### List of Iran cities(شهرستان) in json format
-```php
+```json
 {
-  "RECORDS":[
-    {
-      "id":1,
-      "title":"اراک",
-      "slug":"Arak",
-      "province_id":1,
-      "latitude":34.091667,
-      "longitude":49.689167
-    },
-    {
-      "id":2,
-      "title":"آشتيان",
-      "slug":"Ashtian",
-      "province_id":1,
-      "latitude":34.521944,
-      "longitude":50.006111
-    },
-    {
-      "id":3,
-      "title":"تفرش",
-      "slug":"Tafresh",
-      "province_id":1,
-      "latitude":34.691944,
-      "longitude":50.013056
-    },
-    ...
-    ]
-  }
-  
-```
-
-#### List of Iran sections (بخش) in json format
-```php
-
-{
-  "RECORDS":
-  [
-    {
-      "id":"2",
-      "title":"مرکزي",
-      "slug":"Markazi",
-      "city_id":"2"
-    },
-    {
-      "id":"3",
-      "title":"ساروق",
-      "slug":"Sarough",
-      "city_id":"2"
-    },
-    {
-      "id":"4",
-      "title":"معصوميه",
-      "slug":"Immaculate",
-      "city_id":"2"
-    },
-    {
-      "id":"5",
-      "title":"کمره",
-      "slug":"Camera",
-      "city_id":"5"
-    },
-    ...
-    ]
-  }
-  
-```
-
-
-#### List of Iran towns (دهستان) in json format
-```php
-{
-  "RECORDS":[
-    {
-      "id":"2",
-      "title":"امان آباد",
-      "slug":"Amanabad",
-      "section_id":"2"
-    },
-    {
-      "id":"3",
-      "title":"اميريه",
-      "slug":"Amiriyeh",
-      "section_id":"2"
-    },
-    {
-      "id":"4",
-      "title":"داودآباد",
-      "slug":"Davoudabadi",
-      "section_id":"2"
-    },
-    {
-      "id":"5",
-      "title":"سده",
-      "slug":"Century",
-      "section_id":"2"
-    },
-    ...
-    ]
-  }
-  
-```
-
-
-#### List of Tehran neighbourhood (محلات) in json format
-```php
-
-{
-  "RECORDS" :
-  [
-       {
-          "name":"آرارات, آفتاب",
-          "slug":"Ararat, Sunshine",
-          "id":1
-       },
-       {
-          "name":"آفریقا, آرامش",
-          "slug":"Africa, Aramesh",
-          "id":2
-       },
-       {
-          "name":"آرارات, آرارات",
-          "slug":"Ararat, Ararat",
-          "id":3
-       },
-       {
-          "name":"آفریقا, امین کاج آبادی",
-          "slug":"Africa, Amin Kaaj Abadi",
-          "id":4
-       },
-       ...
-  ]
+  "id": 102,
+  "title": "آبادان",
+  "slug": "Abadan",
+  "province_id": 7,
+  "latitude": 30.3392,
+  "longitude": 48.3043
 }
-
 ```
+
+The province and county files are top-level arrays. The other JSON files wrap their arrays under `RECORDS`. Tehran coordinates may be strings, and street and alley junctions use `location.lat` and `location.lon`.
+
+The [MySQL export](cities.sql) recreates the `provinces`, `cities`, `sections`, and `towns` tables. Use an empty database for the import.
+
+```sh
+mysql -u YOUR_USER -p YOUR_DATABASE < cities.sql
+```
+
+## Data notes
+
+- Province and county coordinates are representative map pins. A county pin may identify its administrative seat.
+- Coverage reflects the records in this repository. Some Latin-script labels need review.
+- The SQL export uses a separate set of province and county IDs. Some `sections.json` links also need reconciliation before joining them to `cities.json`.
+
+## Sources and map credits
+
+- Administrative divisions reference. [Statistical Centre of Iran](https://www.amar.org.ir/)
+- Updated county coordinates. [GeoNames](https://www.geonames.org/export/) and [Open Admin Data](https://github.com/open-admin-data/iran-administrative-divisions), both under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- The Bandar-e Gaz pin, updated Tehran junctions, and map boundary data. [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright). The map uses the [2017 province boundaries from geoBoundaries](https://www.geoboundaries.org/api/current/gbOpen/IRN/ADM1/).
