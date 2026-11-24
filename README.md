@@ -7,6 +7,8 @@ the key feature which is just exists in this repository is Finglish names.
 
 you can get cities.sql file and import it in your mysql database.
 
+`cities.json` contains county pins. Updated coordinates use populated-place or county reference points from [GeoNames](https://www.geonames.org/export/) and [Open Admin Data](https://github.com/open-admin-data/iran-administrative-divisions), both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Bandar-e Gaz pin and updated Tehran intersections use [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+
 ####   List of Iran provinces (استان) in json format
 ```php
 {
