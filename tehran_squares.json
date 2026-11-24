@@ -594,6 +594,15 @@
       "id": 66,
       "search": "میدان فرهنگ,Farhang Square",
       "type": "square"
+    },
+    {
+      "name": "میدان آزادی",
+      "slug": "Azadi Square",
+      "latitude": "35.6997287",
+      "longitude": "51.3376693",
+      "id": 67,
+      "search": "میدان آزادی,Azadi Square,میدان شهیاد,Shahyad Square",
+      "type": "square"
     }
   ]
 }
