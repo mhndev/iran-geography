@@ -2894,5 +2894,37 @@
     "province_id": 18,
     "latitude": 30.3,
     "longitude": 50.73333
+  },
+  {
+    "id": 431,
+    "title": "پیشوا",
+    "slug": "Pishva",
+    "province_id": 24,
+    "latitude": 35.328,
+    "longitude": 51.752
+  },
+  {
+    "id": 432,
+    "title": "قرچک",
+    "slug": "Qarchak",
+    "province_id": 24,
+    "latitude": 35.417,
+    "longitude": 51.572
+  },
+  {
+    "id": 433,
+    "title": "ری",
+    "slug": "Rey",
+    "province_id": 24,
+    "latitude": 35.362,
+    "longitude": 51.217
+  },
+  {
+    "id": 434,
+    "title": "قدس",
+    "slug": "Qods",
+    "province_id": 24,
+    "latitude": 35.704,
+    "longitude": 51.102
   }
 ]

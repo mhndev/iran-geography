@@ -1,0 +1,28 @@
+{
+  "RECORDS": [
+    {
+      "id": "persepolis",
+      "name": "تخت جمشید",
+      "slug": "Persepolis",
+      "category": "heritage_site",
+      "province_id": 8,
+      "latitude": 29.93444,
+      "longitude": 52.89028,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/114/",
+      "verified_on": "2026-11-25"
+    },
+    {
+      "id": "naqsh-e-jahan-square",
+      "name": "میدان نقش جهان",
+      "slug": "Naqsh-e Jahan Square",
+      "category": "heritage_site",
+      "province_id": 11,
+      "latitude": 32.65745,
+      "longitude": 51.6777778,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/115/",
+      "verified_on": "2026-11-25"
+    }
+  ]
+}
