@@ -20,6 +20,8 @@ Use **Browse by area** to choose a province, county, or city. The city view show
 
 [Open the live atlas](https://mhndev.github.io/iran-geography/atlas/) on GitHub Pages.
 
+To flag a wrong pin or name, open the place details and select **Report a correction on GitHub**. The draft includes the atlas ID, current coordinates, and source. Use **Suggest a missing place on GitHub** below the search box for an unlisted location. Add a source if you have one, then sign in to GitHub to submit the public issue for review.
+
 ## Data files
 
 | File | Coverage | Records | Coordinates |

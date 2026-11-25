@@ -12,6 +12,7 @@ const messages = {
     overview: 'Iran overview', streetMap: 'Street map', iran: 'Iran', removeScope: 'Clear',
     loading: 'Loading the atlas…', empty: 'No matching places.', failed: 'The atlas could not load. Serve the repository root over HTTP and reload.',
     close: 'Close place details', source: 'View source', verified: 'Source checked', exactLocation: 'Coordinates',
+    reportCorrection: 'Report a correction on GitHub', reportMissing: 'Suggest a missing place on GitHub',
     nearest: 'Nearest mapped metro station', straightLine: 'straight-line distance', line: 'Line',
     interchange: 'Interchange', entrance: 'Mapped entrance', entrances: 'Mapped entrances',
     airportPin: 'Airport reference point', sitePin: 'Site pin', stopPin: 'Station reference point',
@@ -37,6 +38,7 @@ const messages = {
     overview: 'نمای سراسر ایران', streetMap: 'نقشه خیابان‌ها', iran: 'ایران', removeScope: 'پاک کردن',
     loading: 'در حال بارگیری اطلس…', empty: 'مکانی پیدا نشد.', failed: 'اطلس بارگیری نشد. مخزن پروژه را با یک سرور محلی باز کنید.',
     close: 'بستن جزئیات مکان', source: 'مشاهده منبع', verified: 'تاریخ بررسی منبع', exactLocation: 'مختصات',
+    reportCorrection: 'گزارش اشتباه در گیت‌هاب', reportMissing: 'پیشنهاد مکانِ ثبت‌نشده در گیت‌هاب',
     nearest: 'نزدیک‌ترین ایستگاه مترو', straightLine: 'فاصله مستقیم', line: 'خط',
     interchange: 'ایستگاه تقاطعی', entrance: 'ورودی ثبت‌شده', entrances: 'ورودی‌های ثبت‌شده',
     airportPin: 'نقطه مرجع فرودگاه', sitePin: 'نقطه مکان', stopPin: 'نقطه مرجع ایستگاه',
@@ -113,6 +115,38 @@ function safeSource(url, text) {
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   return link;
+}
+
+function reportUrl(title, sections) {
+  const url = new URL('https://github.com/mhndev/iran-geography/issues/new');
+  url.searchParams.set('title', title);
+  url.searchParams.set('body', sections.join('\n\n'));
+  return url.href;
+}
+
+function correctionUrl(entry) {
+  const record = [
+    `- Name: ${entry.name === entry.slug ? entry.name : `${entry.name} / ${entry.slug}`}`,
+    `- Atlas ID: \`${entry.id}\``,
+    `- Category: \`${entry.kind}\``,
+    `- Current coordinates (latitude, longitude): \`${entry.coordinates.join(', ')}\``,
+  ];
+  if (entry.source) record.push(`- Current source: ${entry.source}`);
+  return reportUrl(`Map correction: ${entry.slug}`, [
+    '### What should change?\n\n<!-- Describe the correction. For a moved pin, include the corrected coordinates. -->',
+    '### Source for the correction\n\n<!-- Link to a source that supports the change, if available. -->',
+    '### Current atlas record\n\n' + record.join('\n'),
+  ]);
+}
+
+function missingPlaceUrl() {
+  const area = [state.province, state.county, state.city].filter(Boolean).map(entry => entry.slug).join(' / ');
+  return reportUrl('Missing place on the map', [
+    '### Place name and category\n\n<!-- Include the Persian name if known. -->',
+    '### Location\n\n<!-- Include the province, city or county, and coordinates or a map link. -->',
+    '### Source\n\n<!-- Link to an official page or other source, if available. -->',
+    ...(area ? [`### Atlas area when reported\n\n${area}`] : []),
+  ]);
 }
 
 function name(entry) {
@@ -353,6 +387,9 @@ function setDetail() {
     const link = safeSource(url, label);
     if (link) detail.append(link, document.createTextNode(' '));
   }
+  const report = element('div', null, 'detail-report');
+  report.append(safeSource(correctionUrl(entry), t('reportCorrection')));
+  detail.append(report);
 }
 
 function drawLabels() {
@@ -509,6 +546,7 @@ function render() {
   }
 
   byId('map-title').textContent = scopeName() || t('iran');
+  byId('report-missing').href = missingPlaceUrl();
   byId('clear-search').hidden = !byId('query').value;
   const scoped = entries.filter(inScope);
   const overview = !query && !state.category && !state.collection && !state.province;
@@ -610,6 +648,7 @@ async function init() {
   render();
 }
 
+byId('report-missing').href = missingPlaceUrl();
 init().catch(error => {
   console.error(error);
   byId('status').textContent = t('failed');

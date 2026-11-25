@@ -55,6 +55,7 @@ h2 { margin: 18px 0 8px; font-size: 14px; line-height: 1.25; font-weight: 720; }
 #query { min-width: 0; width: 100%; border: 0; background: transparent; color: var(--ink); outline: none; font-size: 15px; }
 #query::-webkit-search-cancel-button { display: none; }
 #clear-search { border: 0; background: transparent; padding: 0 3px; font-size: 22px; line-height: 1; }
+.report-missing { display: inline-block; margin-block-start: 8px; font-size: 13px; }
 .pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .pill { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #d8e3d9; color: #264c42;
   background: #f3f7f0; font-size: 14px; line-height: 1.25; border-radius: 6px; padding: 5px 8px; }
@@ -86,6 +87,7 @@ h2 { margin: 18px 0 8px; font-size: 14px; line-height: 1.25; font-weight: 720; }
 .detail button { background: #fcfcf6; border: 1px solid #c3d7c7; border-radius: 5px; margin: 3px 0; padding: 4px 7px; }
 .detail .dismiss { float: inline-end; font-size: 18px; line-height: 1; }
 .detail a { display: inline-block; margin-block-start: 6px; }
+.detail-report { margin-block-start: 8px; border-block-start: 1px solid #cfe0d2; }
 .detail li { margin-block: 2px; }
 .detail ul { padding-inline-start: 20px; }
 .map-frame { position: relative; min-width: 0; min-height: 0; }
