@@ -1,0 +1,2898 @@
+{
+  "source_url": "https://www.openstreetmap.org/relation/21175029",
+  "verified_on": "2026-11-25",
+  "lines": [
+    {
+      "number": 1,
+      "source_url": "https://www.openstreetmap.org/relation/7735256"
+    },
+    {
+      "number": 2,
+      "source_url": "https://www.openstreetmap.org/relation/7832325"
+    },
+    {
+      "number": 3,
+      "source_url": "https://www.openstreetmap.org/relation/7770934"
+    },
+    {
+      "number": 4,
+      "source_url": "https://www.openstreetmap.org/relation/7705669"
+    },
+    {
+      "number": 5,
+      "source_url": "https://www.openstreetmap.org/relation/7735262"
+    },
+    {
+      "number": 6,
+      "source_url": "https://www.openstreetmap.org/relation/9468298"
+    },
+    {
+      "number": 7,
+      "source_url": "https://www.openstreetmap.org/relation/7705644"
+    }
+  ],
+  "stations": [
+    {
+      "id": "metro-14075125226",
+      "name": "ابن سینا",
+      "slug": "Ebn-e Sina",
+      "aliases": [
+        "Ebn-e Sina metro station",
+        "ایستگاه مترو ابن سینا",
+        "شیخ الرئیس"
+      ],
+      "province_id": 24,
+      "latitude": 35.6904567,
+      "longitude": 51.4568004,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/14075125226"
+    },
+    {
+      "id": "metro-234514733",
+      "name": "اتمسفر",
+      "slug": "Atmosfer",
+      "aliases": [
+        "Atmosfer metro station",
+        "ایستگاه مترو اتمسفر"
+      ],
+      "province_id": 31,
+      "latitude": 35.7674621,
+      "longitude": 51.0458545,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/234514733"
+    },
+    {
+      "id": "metro-5161529740",
+      "name": "ارم سبز",
+      "slug": "Eram-e Sabz",
+      "aliases": [
+        "اکباتان"
+      ],
+      "province_id": 24,
+      "latitude": 35.7188979,
+      "longitude": 51.3055167,
+      "lines": [
+        4,
+        5
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7184975,
+          "longitude": 51.3019367,
+          "source_url": "https://www.openstreetmap.org/node/12330887623",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643577",
+          "name": "شقایق جنوبی",
+          "name_en": "South Shaqayeq"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/5161529740"
+    },
+    {
+      "id": "metro-3649760925",
+      "name": "آزادگان",
+      "slug": "Azadegan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6274192,
+      "longitude": 51.3350953,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.6273012,
+          "longitude": 51.335548,
+          "source_url": "https://www.openstreetmap.org/node/4699612455",
+          "station_area_url": "https://www.openstreetmap.org/relation/7649049",
+          "name": "جنوبی",
+          "name_en": "South"
+        },
+        {
+          "latitude": 35.6279983,
+          "longitude": 51.3354072,
+          "source_url": "https://www.openstreetmap.org/node/4699612457",
+          "station_area_url": "https://www.openstreetmap.org/relation/7649049",
+          "name": "شمالی",
+          "name_en": "North"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3649760925"
+    },
+    {
+      "id": "metro-2169732984",
+      "name": "استاد معین",
+      "slug": "Ostad Moein",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7001565,
+      "longitude": 51.3447089,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169732984"
+    },
+    {
+      "id": "metro-3778861791",
+      "name": "اقدسیه",
+      "slug": "Aghdasiyeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.8006991,
+      "longitude": 51.4846199,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861791"
+    },
+    {
+      "id": "metro-660628277",
+      "name": "امام حسین(ع)",
+      "slug": "Emam Hossein",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7023939,
+      "longitude": 51.4457615,
+      "lines": [
+        2,
+        6
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7024541,
+          "longitude": 51.4454905,
+          "source_url": "https://www.openstreetmap.org/node/13426456063",
+          "station_area_url": "https://www.openstreetmap.org/relation/20039846",
+          "name": "ورودی ایستگاه متروی امام حسین",
+          "name_en": "Emam Hossein Metro Station Entrance"
+        },
+        {
+          "latitude": 35.7025305,
+          "longitude": 51.4453338,
+          "source_url": "https://www.openstreetmap.org/node/13426501908",
+          "station_area_url": "https://www.openstreetmap.org/relation/20039846",
+          "name": "ورودی ایستگاه متروی امام حسین",
+          "name_en": "Emam Hossein Metro Station Entrance"
+        },
+        {
+          "latitude": 35.7021584,
+          "longitude": 51.445869,
+          "source_url": "https://www.openstreetmap.org/node/6818484835",
+          "station_area_url": "https://www.openstreetmap.org/relation/20039846",
+          "name": "ورودی ایستگاه مترو امام حسین",
+          "name_en": "Emam Hossein Metro Station Entrance"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660628277"
+    },
+    {
+      "id": "metro-2169380710",
+      "name": "امام خمینی(ره)",
+      "slug": "Emam Khomeini",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6858753,
+      "longitude": 51.421038,
+      "lines": [
+        1,
+        2
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.6854361,
+          "longitude": 51.4204189,
+          "source_url": "https://www.openstreetmap.org/node/3428577592",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677589",
+          "name": "باب همایون",
+          "name_en": "Bab Homayun"
+        },
+        {
+          "latitude": 35.6861201,
+          "longitude": 51.4202901,
+          "source_url": "https://www.openstreetmap.org/node/3428644793",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677589",
+          "name": "سپه",
+          "name_en": "Sepah"
+        },
+        {
+          "latitude": 35.6847788,
+          "longitude": 51.4184668,
+          "source_url": "https://www.openstreetmap.org/node/4167271189",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677589",
+          "name": "خیام",
+          "name_en": "Khayyam"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/2169380710"
+    },
+    {
+      "id": "metro-3815454729",
+      "name": "امیرکبیر",
+      "slug": "Amir Kabir",
+      "aliases": [
+        "Amir Kabir Metro Station",
+        "ایستگاه مترو امیرکبیر"
+      ],
+      "province_id": 24,
+      "latitude": 35.682447,
+      "longitude": 51.4468296,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815454729"
+    },
+    {
+      "id": "metro-3784648871",
+      "name": "آهنگ",
+      "slug": "Ahang",
+      "aliases": [
+        "Ahang metro station",
+        "ایستگاه مترو آهنگ"
+      ],
+      "province_id": 24,
+      "latitude": 35.669217,
+      "longitude": 51.4722,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648871"
+    },
+    {
+      "id": "metro-660623849",
+      "name": "آیت‌الله طالقانی",
+      "slug": "Ayatollah Taleghani",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7071122,
+      "longitude": 51.4255727,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660623849"
+    },
+    {
+      "id": "metro-3815456860",
+      "name": "آیت الله کاشانی",
+      "slug": "Ayatollah Kashani",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7414736,
+      "longitude": 51.3008783,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815456860"
+    },
+    {
+      "id": "metro-28972987",
+      "name": "ایران خودرو",
+      "slug": "Iran Khodro",
+      "aliases": [
+        "Iran Khodro metro station",
+        "ایستگاه مترو ایران خودرو"
+      ],
+      "province_id": 24,
+      "latitude": 35.7251569,
+      "longitude": 51.196549,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/28972987"
+    },
+    {
+      "id": "metro-3784648884",
+      "name": "برج میلاد تهران",
+      "slug": "Borj-e Milad-e Tehran",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7473442,
+      "longitude": 51.3785601,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648884"
+    },
+    {
+      "id": "metro-4981028494",
+      "name": "بریانک",
+      "slug": "Beryanak",
+      "aliases": [
+        "Beryanak metro station",
+        "ایستگاه مترو بریانک"
+      ],
+      "province_id": 24,
+      "latitude": 35.673067,
+      "longitude": 51.3808527,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4981028494"
+    },
+    {
+      "id": "metro-3784648870",
+      "name": "بسیج",
+      "slug": "Basij",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6665217,
+      "longitude": 51.4900951,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648870"
+    },
+    {
+      "id": "metro-5930756414",
+      "name": "بعثت",
+      "slug": "Be'sat",
+      "aliases": [
+        "Be'sat metro station",
+        "ایستگاه مترو بعثت"
+      ],
+      "province_id": 24,
+      "latitude": 35.6448426,
+      "longitude": 51.444637,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/5930756414"
+    },
+    {
+      "id": "metro-659782107",
+      "name": "بهارستان",
+      "slug": "Baharestan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6923351,
+      "longitude": 51.4331713,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/659782107"
+    },
+    {
+      "id": "metro-10759924012",
+      "name": "بهار شیراز",
+      "slug": "Bahar Shiraz",
+      "aliases": [
+        "Khanevadeh Hospital",
+        "بیمارستان خانواده"
+      ],
+      "province_id": 24,
+      "latitude": 35.71564,
+      "longitude": 51.4397861,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10759924012"
+    },
+    {
+      "id": "metro-3853324397",
+      "name": "بوستان لاله",
+      "slug": "Boostan-e Laleh",
+      "aliases": [
+        "Laleh Park"
+      ],
+      "province_id": 24,
+      "latitude": 35.708284,
+      "longitude": 51.3952006,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324397"
+    },
+    {
+      "id": "metro-3784648883",
+      "name": "بوستان گفتگو",
+      "slug": "Boostan-e Goftegou",
+      "aliases": [
+        "Goftegou Park"
+      ],
+      "province_id": 24,
+      "latitude": 35.7319896,
+      "longitude": 51.3830545,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648883"
+    },
+    {
+      "id": "metro-3930789262",
+      "name": "بیمه",
+      "slug": "Bimeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6995402,
+      "longitude": 51.3221163,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3930789262"
+    },
+    {
+      "id": "metro-2152781392",
+      "name": "تجریش",
+      "slug": "Tajrish",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.8046421,
+      "longitude": 51.4336901,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.8047644,
+          "longitude": 51.4333952,
+          "source_url": "https://www.openstreetmap.org/node/3784895492",
+          "station_area_url": "https://www.openstreetmap.org/relation/7683369",
+          "name": "میدان قدس",
+          "name_en": "Qods Square"
+        },
+        {
+          "latitude": 35.8042784,
+          "longitude": 51.4343069,
+          "source_url": "https://www.openstreetmap.org/node/6468302494",
+          "station_area_url": "https://www.openstreetmap.org/relation/7683369",
+          "name": "شهرداری",
+          "name_en": "ُShahrdari"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/2152781392"
+    },
+    {
+      "id": "metro-660628921",
+      "name": "تهرانپارس",
+      "slug": "Tehranpars",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.730893,
+      "longitude": 51.5318406,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628921"
+    },
+    {
+      "id": "metro-4452444057",
+      "name": "توحید",
+      "slug": "Towhid",
+      "aliases": [
+        "Towhid metro station",
+        "ایستگاه مترو توحید"
+      ],
+      "province_id": 24,
+      "latitude": 35.7006696,
+      "longitude": 51.378258,
+      "lines": [
+        4,
+        7
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7010749,
+          "longitude": 51.3782116,
+          "source_url": "https://www.openstreetmap.org/node/3439539465",
+          "station_area_url": "https://www.openstreetmap.org/relation/7649028",
+          "name": "توحید",
+          "name_en": "Tohid"
+        },
+        {
+          "latitude": 35.7008798,
+          "longitude": 51.378711,
+          "source_url": "https://www.openstreetmap.org/node/4219260482",
+          "station_area_url": "https://www.openstreetmap.org/relation/7649028",
+          "name": "آزادی",
+          "name_en": "Azadi"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/4452444057"
+    },
+    {
+      "id": "metro-2169732979",
+      "name": "تئاتر شهر",
+      "slug": "Teatr-e Shahr",
+      "aliases": [
+        "چهارراه ولیعصر"
+      ],
+      "province_id": 24,
+      "latitude": 35.7013096,
+      "longitude": 51.4052281,
+      "lines": [
+        3,
+        4
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7012267,
+          "longitude": 51.404763,
+          "source_url": "https://www.openstreetmap.org/node/4443841290",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "غربی",
+          "name_en": "West"
+        },
+        {
+          "latitude": 35.7013578,
+          "longitude": 51.4047494,
+          "source_url": "https://www.openstreetmap.org/node/4443793550",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "شمال غربی",
+          "name_en": "North West"
+        },
+        {
+          "latitude": 35.7016214,
+          "longitude": 51.4051176,
+          "source_url": "https://www.openstreetmap.org/node/4443793548",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "شمالی",
+          "name_en": "North"
+        },
+        {
+          "latitude": 35.7013783,
+          "longitude": 51.4054561,
+          "source_url": "https://www.openstreetmap.org/node/4443793547",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "شمال شرقی",
+          "name_en": "North East"
+        },
+        {
+          "latitude": 35.7012407,
+          "longitude": 51.4055785,
+          "source_url": "https://www.openstreetmap.org/node/4443793545",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "شرقی",
+          "name_en": "East"
+        },
+        {
+          "latitude": 35.7010475,
+          "longitude": 51.4054667,
+          "source_url": "https://www.openstreetmap.org/node/2192231217",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "پارک دانشجو",
+          "name_en": "Daneshjoo Park"
+        },
+        {
+          "latitude": 35.7008486,
+          "longitude": 51.4051143,
+          "source_url": "https://www.openstreetmap.org/node/4443793556",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "جنوبی",
+          "name_en": "South"
+        },
+        {
+          "latitude": 35.7009894,
+          "longitude": 51.4048155,
+          "source_url": "https://www.openstreetmap.org/node/9033082250",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645441",
+          "name": "جنوب غربی",
+          "name_en": "South West"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/2169732979"
+    },
+    {
+      "id": "metro-4674995987",
+      "name": "جانبازان",
+      "slug": "Janbazan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.733237,
+      "longitude": 51.4841242,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4674995987"
+    },
+    {
+      "id": "metro-3641204693",
+      "name": "جوادیه",
+      "slug": "Javadiyeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6593516,
+      "longitude": 51.387791,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3641204693"
+    },
+    {
+      "id": "metro-3691093697",
+      "name": "جوانمرد قصاب",
+      "slug": "Javanmard-e Ghassab",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6100249,
+      "longitude": 51.4194926,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3691093697"
+    },
+    {
+      "id": "metro-11281419801",
+      "name": "حرم مطهر امام خمینی(ره)",
+      "slug": "Haram-e Motahar-e Imam Khomeini",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.5450702,
+      "longitude": 51.3730512,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/11281419801"
+    },
+    {
+      "id": "metro-3691224155",
+      "name": "حسن‌آباد",
+      "slug": "Hassan Abad",
+      "aliases": [
+        "سازمان املاک و مستغلات شهرداری تهران"
+      ],
+      "province_id": 24,
+      "latitude": 35.6861227,
+      "longitude": 51.4101573,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3691224155"
+    },
+    {
+      "id": "metro-3778861789",
+      "name": "حسین آباد",
+      "slug": "Hossein Abad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7789408,
+      "longitude": 51.4786726,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861789"
+    },
+    {
+      "id": "metro-14072135589",
+      "name": "خواجه عبدالله انصاری",
+      "slug": "Khajeh Abdollah-e Ansari",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7434577,
+      "longitude": 51.4621422,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/14072135589"
+    },
+    {
+      "id": "metro-660640664",
+      "name": "خیام",
+      "slug": "Khayyam",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6731433,
+      "longitude": 51.4166027,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660640664"
+    },
+    {
+      "id": "metro-3778792864",
+      "name": "دانشگاه امام علی(ع)",
+      "slug": "Daneshgah-e Emam Ali",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6874074,
+      "longitude": 51.3990742,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778792864"
+    },
+    {
+      "id": "metro-3784648882",
+      "name": "دانشگاه تربیت مدرس",
+      "slug": "Daneshgah-e Tarbiat Modarres",
+      "aliases": [
+        "Tarbiat Modarres University"
+      ],
+      "province_id": 24,
+      "latitude": 35.7249336,
+      "longitude": 51.3813794,
+      "lines": [
+        6,
+        7
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.724243,
+          "longitude": 51.3813451,
+          "source_url": "https://www.openstreetmap.org/node/6417374273",
+          "station_area_url": "https://www.openstreetmap.org/relation/12818897",
+          "name": "جنوب شرقی",
+          "name_en": "southeast"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3784648882"
+    },
+    {
+      "id": "metro-864404756",
+      "name": "دانشگاه شریف",
+      "slug": "Daneshgah-e Sharif",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7057728,
+      "longitude": 51.3541752,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/864404756"
+    },
+    {
+      "id": "metro-660628852",
+      "name": "دانشگاه علم و صنعت",
+      "slug": "Daneshgah-e Elm-o San'at",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7344204,
+      "longitude": 51.5049701,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628852"
+    },
+    {
+      "id": "metro-660623588",
+      "name": "دروازه دولت",
+      "slug": "Darvazeh Dowlat",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7016854,
+      "longitude": 51.4261099,
+      "lines": [
+        1,
+        4
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7018677,
+          "longitude": 51.4264467,
+          "source_url": "https://www.openstreetmap.org/node/13202636300",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679928",
+          "name": "شمال شرقی",
+          "name_en": "Northeast"
+        },
+        {
+          "latitude": 35.7014676,
+          "longitude": 51.4257538,
+          "source_url": "https://www.openstreetmap.org/node/4219248422",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679928",
+          "name": "جنوبی",
+          "name_en": "Southern"
+        },
+        {
+          "latitude": 35.7018488,
+          "longitude": 51.4257319,
+          "source_url": "https://www.openstreetmap.org/node/4219248423",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679928",
+          "name": "شمال غربی",
+          "name_en": "Northwest"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660623588"
+    },
+    {
+      "id": "metro-660627035",
+      "name": "دروازه شمیران",
+      "slug": "Darvazeh Shemiran",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6989544,
+      "longitude": 51.4372755,
+      "lines": [
+        2,
+        4
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.6991151,
+          "longitude": 51.4380832,
+          "source_url": "https://www.openstreetmap.org/node/4174127589",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680016",
+          "name": "شمال شرق ابن سینا",
+          "name_en": "northeast Ebn-e Sina"
+        },
+        {
+          "latitude": 35.6993503,
+          "longitude": 51.4375057,
+          "source_url": "https://www.openstreetmap.org/node/5508708607",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680016",
+          "name": "شمال غرب ابن سینا",
+          "name_en": "northwest Ebn-e Sina"
+        },
+        {
+          "latitude": 35.6988366,
+          "longitude": 51.4372903,
+          "source_url": "https://www.openstreetmap.org/node/13197843326",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680016",
+          "name": "جنوب ابن سینا",
+          "name_en": "south Ebn-e Sina"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660627035"
+    },
+    {
+      "id": "metro-4558309639",
+      "name": "دکتر حبیب اله",
+      "slug": "Doctor Habib-o-llah",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7002963,
+      "longitude": 51.3560391,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4558309639"
+    },
+    {
+      "id": "metro-2169380705",
+      "name": "دکتر شریعتی",
+      "slug": "Doctor Shari'ati",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7630523,
+      "longitude": 51.4439276,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169380705"
+    },
+    {
+      "id": "metro-12457390950",
+      "name": "راه آهن",
+      "slug": "Rahahan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6595076,
+      "longitude": 51.3977226,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.6597462,
+          "longitude": 51.3974844,
+          "source_url": "https://www.openstreetmap.org/node/5128085899",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685426",
+          "name": "کارگر جنوبی",
+          "name_en": "Karegar South"
+        },
+        {
+          "latitude": 35.6586523,
+          "longitude": 51.3983662,
+          "source_url": "https://www.openstreetmap.org/node/13192458338",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685426",
+          "name": "شوش شرقی",
+          "name_en": "Shoosh East"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/12457390950"
+    },
+    {
+      "id": "metro-3784648879",
+      "name": "رودکی",
+      "slug": "Roudaki",
+      "aliases": [
+        "Roudaki metro station",
+        "ایستگاه مترو رودکی"
+      ],
+      "province_id": 24,
+      "latitude": 35.687753,
+      "longitude": 51.3794785,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648879"
+    },
+    {
+      "id": "metro-5190555599",
+      "name": "زمزم",
+      "slug": "Zamzam",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6525617,
+      "longitude": 51.3735926,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/5190555599"
+    },
+    {
+      "id": "metro-660628364",
+      "name": "سبلان",
+      "slug": "Sabalan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7183562,
+      "longitude": 51.4644303,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628364"
+    },
+    {
+      "id": "metro-13426509301",
+      "name": "سرباز وطن",
+      "slug": "Sarbaz-e Vatan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.709057,
+      "longitude": 51.4429368,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/13426509301"
+    },
+    {
+      "id": "metro-660628705",
+      "name": "سرسبز",
+      "slug": "Sarsabz",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7357324,
+      "longitude": 51.4947992,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628705"
+    },
+    {
+      "id": "metro-660623347",
+      "name": "سعدی",
+      "slug": "Sa'di",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6933268,
+      "longitude": 51.4245717,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660623347"
+    },
+    {
+      "id": "metro-14071134416",
+      "name": "سهروردی",
+      "slug": "Sohrevardi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7311282,
+      "longitude": 51.4367691,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/14071134416"
+    },
+    {
+      "id": "metro-654081655",
+      "name": "شادمان",
+      "slug": "Shademan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7004036,
+      "longitude": 51.3647339,
+      "lines": [
+        2,
+        4
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7005871,
+          "longitude": 51.3638469,
+          "source_url": "https://www.openstreetmap.org/node/4174120891",
+          "station_area_url": "https://www.openstreetmap.org/relation/7673510",
+          "name": "تیموری",
+          "name_en": "Teymouri"
+        },
+        {
+          "latitude": 35.7000653,
+          "longitude": 51.363958,
+          "source_url": "https://www.openstreetmap.org/node/10982033228",
+          "station_area_url": "https://www.openstreetmap.org/relation/7673510",
+          "name": "آزادی",
+          "name_en": "azadi"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/654081655"
+    },
+    {
+      "id": "metro-660631367",
+      "name": "شاهد - باقرشهر",
+      "slug": "Shahed - Bagher Shahr",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.5473539,
+      "longitude": 51.3827029,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.5470471,
+          "longitude": 51.3825252,
+          "source_url": "https://www.openstreetmap.org/node/4560783437",
+          "station_area_url": "https://www.openstreetmap.org/relation/7645340",
+          "name": "شاهد - باقرشهر",
+          "name_en": "Shahed- Bagher Shahr"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660631367"
+    },
+    {
+      "id": "metro-3815454692",
+      "name": "شهدای دولت آباد",
+      "slug": "Shohada-ye Dowlat Abad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.61866,
+      "longitude": 51.4642056,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815454692"
+    },
+    {
+      "id": "metro-3815456757",
+      "name": "شهدای هفتم تیر",
+      "slug": "Shohada-ye Haftom-e Tir",
+      "aliases": [
+        "هفت تیر"
+      ],
+      "province_id": 24,
+      "latitude": 35.7162264,
+      "longitude": 51.4264916,
+      "lines": [
+        1,
+        6
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.715661,
+          "longitude": 51.4264321,
+          "source_url": "https://www.openstreetmap.org/node/4245940673",
+          "station_area_url": "https://www.openstreetmap.org/relation/15640836",
+          "name": "شرقی",
+          "name_en": "Eastern"
+        },
+        {
+          "latitude": 35.7152254,
+          "longitude": 51.4254718,
+          "source_url": "https://www.openstreetmap.org/node/4245940674",
+          "station_area_url": "https://www.openstreetmap.org/relation/15640836",
+          "name": "غربی",
+          "name_en": "Western"
+        },
+        {
+          "latitude": 35.7160051,
+          "longitude": 51.4260961,
+          "source_url": "https://www.openstreetmap.org/node/8979941574",
+          "station_area_url": "https://www.openstreetmap.org/relation/15640836",
+          "name": "شمالی",
+          "name_en": "Northern"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3815456757"
+    },
+    {
+      "id": "metro-9817359618",
+      "name": "شهدای هفده شهریور",
+      "slug": "Shohada-ye Hefdah-e Shahrivar",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6684881,
+      "longitude": 51.4454775,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/9817359618"
+    },
+    {
+      "id": "metro-10761286147",
+      "name": "شهدای کن",
+      "slug": "Shohada-ye Kan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7632103,
+      "longitude": 51.2839432,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10761286147"
+    },
+    {
+      "id": "metro-5003695295",
+      "name": "شهر آفتاب",
+      "slug": "Shahre Aftab",
+      "aliases": [
+        "Shahre Aftab Metro Station",
+        "ایستگاه مترو شهر آفتاب"
+      ],
+      "province_id": 24,
+      "latitude": 35.5396694,
+      "longitude": 51.3494158,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/5003695295"
+    },
+    {
+      "id": "metro-3853324358",
+      "name": "شهران",
+      "slug": "Shahran",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.753978,
+      "longitude": 51.2874715,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324358"
+    },
+    {
+      "id": "metro-4452299882",
+      "name": "شهرری",
+      "slug": "Shahr-e Rey",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.594572,
+      "longitude": 51.4223939,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4452299882"
+    },
+    {
+      "id": "metro-11263536540",
+      "name": "شهر زیبا",
+      "slug": "Shahr-e Ziba",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7456674,
+      "longitude": 51.2947466,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/11263536540"
+    },
+    {
+      "id": "metro-11271470415",
+      "name": "شهر پرند",
+      "slug": "Shahr-e Parand",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.4638433,
+      "longitude": 50.9771474,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.4643498,
+          "longitude": 50.9767961,
+          "source_url": "https://www.openstreetmap.org/node/11271512136",
+          "station_area_url": "https://www.openstreetmap.org/relation/16513677",
+          "name": "شهر پرند",
+          "name_en": "Shahr-e Parand"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/11271470415"
+    },
+    {
+      "id": "metro-3815456806",
+      "name": "شهرک آزمایش",
+      "slug": "Shahrak-e Azmayesh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7316901,
+      "longitude": 51.3705088,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815456806"
+    },
+    {
+      "id": "metro-2169732956",
+      "name": "شهرک اکباتان",
+      "slug": "Sharak-e Ekbatan",
+      "aliases": [
+        "Sharak-e Ekbatan Metro Station",
+        "ایستگاه مترو شهرک اکباتان"
+      ],
+      "province_id": 24,
+      "latitude": 35.7055139,
+      "longitude": 51.3076362,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169732956"
+    },
+    {
+      "id": "metro-3649760928",
+      "name": "شهرک شریعتی",
+      "slug": "Shahrak-e Shariati",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6442232,
+      "longitude": 51.3685225,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3649760928"
+    },
+    {
+      "id": "metro-3853324357",
+      "name": "شهید آرمان علی وردی",
+      "slug": "Shahid Arman Aliverdi",
+      "aliases": [
+        "Kouhsar",
+        "کوهسار"
+      ],
+      "province_id": 24,
+      "latitude": 35.7705739,
+      "longitude": 51.2790369,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324357"
+    },
+    {
+      "id": "metro-3815456838",
+      "name": "شهید اشرفی اصفهانی",
+      "slug": "Shahid Ashrafi Esfahani",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7362534,
+      "longitude": 51.3310759,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815456838"
+    },
+    {
+      "id": "metro-660628855",
+      "name": "شهیدان باقری",
+      "slug": "Shahidan-e Bagheri",
+      "aliases": [
+        "Shahid Bagheri",
+        "شهید باقری"
+      ],
+      "province_id": 24,
+      "latitude": 35.7329001,
+      "longitude": 51.5168445,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628855"
+    },
+    {
+      "id": "metro-660635266",
+      "name": "شهید بخارایی",
+      "slug": "Shahid Bokharaei",
+      "aliases": [
+        "خزانه"
+      ],
+      "province_id": 24,
+      "latitude": 35.64071,
+      "longitude": 51.4147857,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660635266"
+    },
+    {
+      "id": "metro-5188238057",
+      "name": "شهید بهشتی",
+      "slug": "Shahid Beheshti",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7299644,
+      "longitude": 51.4269978,
+      "lines": [
+        1,
+        3
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7300325,
+          "longitude": 51.4268048,
+          "source_url": "https://www.openstreetmap.org/node/13200383917",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679920",
+          "name": "مفتح غرب",
+          "name_en": "Mosalla West"
+        },
+        {
+          "latitude": 35.7299321,
+          "longitude": 51.4274366,
+          "source_url": "https://www.openstreetmap.org/node/4508494541",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679920",
+          "name": "مفتح شرق",
+          "name_en": "Mofatteh East"
+        },
+        {
+          "latitude": 35.7310237,
+          "longitude": 51.4270131,
+          "source_url": "https://www.openstreetmap.org/node/4508500046",
+          "station_area_url": "https://www.openstreetmap.org/relation/7679920",
+          "name": "مصلی",
+          "name_en": "Mosalla"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/5188238057"
+    },
+    {
+      "id": "metro-660658298",
+      "name": "شهید حقانی",
+      "slug": "Shahid Haghani",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7567411,
+      "longitude": 51.4261045,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660658298"
+    },
+    {
+      "id": "metro-10746895094",
+      "name": "شهید دادمان",
+      "slug": "Shahid Dadman",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7670778,
+      "longitude": 51.3665384,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10746895094"
+    },
+    {
+      "id": "metro-9149513247",
+      "name": "شهید رضایی",
+      "slug": "Shahid Rezaei",
+      "aliases": [
+        "Shahid Rezaei Metro Station",
+        "ایستگاه مترو شهید رضایی"
+      ],
+      "province_id": 24,
+      "latitude": 35.6518521,
+      "longitude": 51.4446523,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/9149513247"
+    },
+    {
+      "id": "metro-4453205974",
+      "name": "شهید زین الدین",
+      "slug": "Shahid Zeyn-e-ddin",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7605766,
+      "longitude": 51.4658777,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4453205974"
+    },
+    {
+      "id": "metro-10235224668",
+      "name": "شهید ستاری",
+      "slug": "Shahid Sattari",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7373208,
+      "longitude": 51.319963,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10235224668"
+    },
+    {
+      "id": "metro-13381123769",
+      "name": "شهید صدر",
+      "slug": "Shahid Sadr",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7850945,
+      "longitude": 51.4359918,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/13381123769"
+    },
+    {
+      "id": "metro-3778861786",
+      "name": "شهید صیاد شیرازی",
+      "slug": "Shahid Sayyad-e Shirazi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7355601,
+      "longitude": 51.4583975,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861786"
+    },
+    {
+      "id": "metro-11737927452",
+      "name": "شهید فخری زاده",
+      "slug": "Shahid Fakhrizadeh",
+      "aliases": [
+        "Mammut",
+        "Shahid Fakhrizadeh Metro Station",
+        "ایستگاه مترو شهید فخری زاده",
+        "ماموت"
+      ],
+      "province_id": 31,
+      "latitude": 35.917562,
+      "longitude": 50.7910923,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/11737927452"
+    },
+    {
+      "id": "metro-7954477622",
+      "name": "شهید قاسم سلیمانی",
+      "slug": "Shahid Qasem Soleimani",
+      "aliases": [
+        "Shahid Qasem Soleimani metro station",
+        "ایستگاه مترو شهید قاسم سلیمانی",
+        "هشتگرد"
+      ],
+      "province_id": 31,
+      "latitude": 35.9587777,
+      "longitude": 50.7191193,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/7954477622"
+    },
+    {
+      "id": "metro-12457390952",
+      "name": "شهید قدوسی",
+      "slug": "Shahid Ghodousi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7313051,
+      "longitude": 51.4447367,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/12457390952"
+    },
+    {
+      "id": "metro-3778861792",
+      "name": "شهید محلاتی",
+      "slug": "Shahid Mahallati",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7974624,
+      "longitude": 51.5084383,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861792"
+    },
+    {
+      "id": "metro-660628303",
+      "name": "شهید مدنی",
+      "slug": "Shahid Madani",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7090585,
+      "longitude": 51.4529655,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660628303"
+    },
+    {
+      "id": "metro-660624203",
+      "name": "شهید مفتح",
+      "slug": "Shahid Mofatteh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7244122,
+      "longitude": 51.4277961,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660624203"
+    },
+    {
+      "id": "metro-3784648880",
+      "name": "شهید نواب صفوی",
+      "slug": "Shahid Navvab-e Safavi",
+      "aliases": [
+        "Shahid Navvab-e Safavi metro station",
+        "ایستگاه مترو شهید نواب صفوی"
+      ],
+      "province_id": 24,
+      "latitude": 35.694896,
+      "longitude": 51.3786419,
+      "lines": [
+        2,
+        7
+      ],
+      "interchange": true,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648880"
+    },
+    {
+      "id": "metro-12457390956",
+      "name": "شهید همت",
+      "slug": "Shahid Hemmat",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7489388,
+      "longitude": 51.4263148,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/12457390956"
+    },
+    {
+      "id": "metro-4553519985",
+      "name": "شهید کلاهدوز",
+      "slug": "Shahid Kolahdouz",
+      "aliases": [
+        "Shahid Kolahdouz metro station",
+        "ایستگاه مترو شهید کلاهدوز"
+      ],
+      "province_id": 24,
+      "latitude": 35.6985354,
+      "longitude": 51.4997731,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4553519985"
+    },
+    {
+      "id": "metro-660637545",
+      "name": "شوش",
+      "slug": "Shoush",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6573519,
+      "longitude": 51.4142572,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660637545"
+    },
+    {
+      "id": "metro-4079699883",
+      "name": "صادقیه",
+      "slug": "Sadeghiyeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7179872,
+      "longitude": 51.331274,
+      "lines": [
+        2,
+        5
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7179571,
+          "longitude": 51.3301786,
+          "source_url": "https://www.openstreetmap.org/node/6746468335",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580",
+          "name": "پایانه تاکسی",
+          "name_en": "taxi station"
+        },
+        {
+          "latitude": 35.7172002,
+          "longitude": 51.3302817,
+          "source_url": "https://www.openstreetmap.org/node/6814313950",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580",
+          "name": "پایانه اتوبوس رانی",
+          "name_en": "bus station"
+        },
+        {
+          "latitude": 35.7181154,
+          "longitude": 51.3311153,
+          "source_url": "https://www.openstreetmap.org/node/6581263862",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580",
+          "name": "ولیعصر",
+          "name_en": "Valiasr"
+        },
+        {
+          "latitude": 35.7172367,
+          "longitude": 51.3312928,
+          "source_url": "https://www.openstreetmap.org/node/14040974369",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580"
+        },
+        {
+          "latitude": 35.7172449,
+          "longitude": 51.3313667,
+          "source_url": "https://www.openstreetmap.org/node/14040974370",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580"
+        },
+        {
+          "latitude": 35.7172669,
+          "longitude": 51.3313192,
+          "source_url": "https://www.openstreetmap.org/node/4583016720",
+          "station_area_url": "https://www.openstreetmap.org/relation/7643580"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/4079699883"
+    },
+    {
+      "id": "metro-2120217849",
+      "name": "طرشت",
+      "slug": "Tarasht",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7160813,
+      "longitude": 51.343575,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2120217849"
+    },
+    {
+      "id": "metro-4453604919",
+      "name": "عبدل آباد",
+      "slug": "Abdol Abad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6383716,
+      "longitude": 51.3599477,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4453604919"
+    },
+    {
+      "id": "metro-10860300370",
+      "name": "علامه جعفری",
+      "slug": "Allameh Ja'fari",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7316241,
+      "longitude": 51.307472,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10860300370"
+    },
+    {
+      "id": "metro-660633348",
+      "name": "علی آباد",
+      "slug": "Ali Abad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6296087,
+      "longitude": 51.4157326,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660633348"
+    },
+    {
+      "id": "metro-3080821096",
+      "name": "فدک",
+      "slug": "Fadak",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.72658,
+      "longitude": 51.4756588,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3080821096"
+    },
+    {
+      "id": "metro-660624968",
+      "name": "فردوسی",
+      "slug": "Ferdowsi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.701545,
+      "longitude": 51.419122,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660624968"
+    },
+    {
+      "id": "metro-2169691367",
+      "name": "فرهنگسرا",
+      "slug": "Farhangsara",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7298161,
+      "longitude": 51.5470271,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169691367"
+    },
+    {
+      "id": "metro-2367114843",
+      "name": "فرودگاه امام خمینی(ره)",
+      "slug": "Imam Khomeini Airport",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.4078608,
+      "longitude": 51.1544874,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2367114843"
+    },
+    {
+      "id": "metro-3930792665",
+      "name": "فرودگاه مهرآباد ترمینال‌های ۱ و ۲",
+      "slug": "Mehrabad Airport Terminals 1 & 2",
+      "aliases": [
+        "Mehrabad Airport Terminals 1 & 2 Metro Station",
+        "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۱ و ۲"
+      ],
+      "province_id": 24,
+      "latitude": 35.6931469,
+      "longitude": 51.3250917,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3930792665"
+    },
+    {
+      "id": "metro-3930792260",
+      "name": "فرودگاه مهرآباد ترمینال‌های ۴ و ۶",
+      "slug": "Mehrabad Airport Terminals 4 & 6",
+      "aliases": [
+        "Mehrabad Airport Terminals 4 & 6 Metro Station",
+        "ایستگاه مترو فرودگاه مهرآباد ترمینال‌های ۴ و ۶"
+      ],
+      "province_id": 24,
+      "latitude": 35.6890555,
+      "longitude": 51.3304429,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3930792260"
+    },
+    {
+      "id": "metro-3778861797",
+      "name": "قائم",
+      "slug": "Ghaem",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7992391,
+      "longitude": 51.5209106,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861797"
+    },
+    {
+      "id": "metro-12457390955",
+      "name": "قلهک",
+      "slug": "Gholhak",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7728802,
+      "longitude": 51.4381052,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/12457390955"
+    },
+    {
+      "id": "metro-2169380696",
+      "name": "قیطریه",
+      "slug": "Gheytariyeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7934924,
+      "longitude": 51.4348134,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169380696"
+    },
+    {
+      "id": "metro-4219347504",
+      "name": "محمد شهر",
+      "slug": "Mohammad Shahr",
+      "aliases": [
+        "Mahdasht",
+        "Mohammad Shahr Metro Station",
+        "ایستگاه مترو محمد شهر",
+        "ماهدشت"
+      ],
+      "province_id": 31,
+      "latitude": 35.8022775,
+      "longitude": 50.9648619,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4219347504"
+    },
+    {
+      "id": "metro-10126282787",
+      "name": "مدافعان سلامت",
+      "slug": "Modafean-e Salamat",
+      "aliases": [
+        "Modafean-e Salamat metro station",
+        "ایستگاه مترو مدافعان سلامت"
+      ],
+      "province_id": 24,
+      "latitude": 35.7061214,
+      "longitude": 51.3776859,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/10126282787"
+    },
+    {
+      "id": "metro-3815456820",
+      "name": "مرزداران",
+      "slug": "Marzdaran",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7343535,
+      "longitude": 51.35892,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815456820"
+    },
+    {
+      "id": "metro-3853324412",
+      "name": "مریم مقدس(س)",
+      "slug": "Maryam-e Moghaddas",
+      "aliases": [
+        "Shahid Nejatollahi",
+        "شهید نجات اللهی"
+      ],
+      "province_id": 24,
+      "latitude": 35.7151526,
+      "longitude": 51.4144293,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324412"
+    },
+    {
+      "id": "metro-26751498",
+      "name": "مصلی امام خمینی(ره)",
+      "slug": "Mosalla-ye Emam Khomeini",
+      "aliases": [
+        "Mosalla-ye Emam Khomeini metro station",
+        "ایستگاه مترو مصلی امام خمینی(ره)"
+      ],
+      "province_id": 24,
+      "latitude": 35.7406933,
+      "longitude": 51.4276116,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/26751498"
+    },
+    {
+      "id": "metro-659784460",
+      "name": "ملت",
+      "slug": "Mellat",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6883561,
+      "longitude": 51.426721,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/659784460"
+    },
+    {
+      "id": "metro-3649760926",
+      "name": "منیریه",
+      "slug": "Moniriyeh",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6811307,
+      "longitude": 51.401641,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3649760926"
+    },
+    {
+      "id": "metro-3784648877",
+      "name": "مهدیه",
+      "slug": "Mahdiyeh",
+      "aliases": [
+        "Mahdiyeh Metro Station",
+        "ایستگاه مترو مهدیه"
+      ],
+      "province_id": 24,
+      "latitude": 35.6671873,
+      "longitude": 51.3994195,
+      "lines": [
+        3,
+        7
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.6670635,
+          "longitude": 51.3995844,
+          "source_url": "https://www.openstreetmap.org/node/13197446158",
+          "station_area_url": "https://www.openstreetmap.org/relation/8493368",
+          "name": "مولوی جنوب شرقی",
+          "name_en": "South East Molavi"
+        },
+        {
+          "latitude": 35.6672912,
+          "longitude": 51.3989528,
+          "source_url": "https://www.openstreetmap.org/node/11397336552",
+          "station_area_url": "https://www.openstreetmap.org/relation/8493368",
+          "name": "مولوی شمالی",
+          "name_en": "North Molavi"
+        },
+        {
+          "latitude": 35.6670853,
+          "longitude": 51.3991727,
+          "source_url": "https://www.openstreetmap.org/node/11397331446",
+          "station_area_url": "https://www.openstreetmap.org/relation/8493368",
+          "name": "مولوی جنوب غربی",
+          "name_en": "South West Molavi"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3784648877"
+    },
+    {
+      "id": "metro-3784648875",
+      "name": "مولوی",
+      "slug": "Mowlavi",
+      "aliases": [
+        "Mowlavi metro station",
+        "ایستگاه مترو مولوی"
+      ],
+      "province_id": 24,
+      "latitude": 35.6692573,
+      "longitude": 51.4288083,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648875"
+    },
+    {
+      "id": "metro-2169732950",
+      "name": "میدان آزادی",
+      "slug": "Meydan-e Azadi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.69975,
+      "longitude": 51.3325863,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.7011852,
+          "longitude": 51.333455,
+          "source_url": "https://www.openstreetmap.org/node/3870176576",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677559",
+          "name": "شمال غربی",
+          "name_en": "North West"
+        },
+        {
+          "latitude": 35.6993314,
+          "longitude": 51.3338788,
+          "source_url": "https://www.openstreetmap.org/node/5211274175",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677559",
+          "name": "لشگری جنوب",
+          "name_en": "Lashgari South"
+        },
+        {
+          "latitude": 35.7002353,
+          "longitude": 51.3326191,
+          "source_url": "https://www.openstreetmap.org/node/6090395289",
+          "station_area_url": "https://www.openstreetmap.org/relation/7677559",
+          "name": "لشگری شمال",
+          "name_en": "Lashgari North"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/2169732950"
+    },
+    {
+      "id": "metro-2169732952",
+      "name": "میدان انقلاب اسلامی",
+      "slug": "Meydan-e Enghelab-e Eslami",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7009387,
+      "longitude": 51.39194,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169732952"
+    },
+    {
+      "id": "metro-2831259315",
+      "name": "میدان جهاد",
+      "slug": "Meydan-e Jahad",
+      "aliases": [
+        "Fatemi",
+        "فاطمی"
+      ],
+      "province_id": 24,
+      "latitude": 35.7205082,
+      "longitude": 51.4084156,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2831259315"
+    },
+    {
+      "id": "metro-654082162",
+      "name": "میدان حر",
+      "slug": "Meydan-e Horr",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6908759,
+      "longitude": 51.3883603,
+      "lines": [
+        2
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/654082162"
+    },
+    {
+      "id": "metro-3853324399",
+      "name": "میدان حضرت ولی عصر(عج)",
+      "slug": "Meydan-e Hazrat-e Vali-e Asr",
+      "aliases": [
+        "Vali-e Asr Square",
+        "میدان ولی عصر"
+      ],
+      "province_id": 24,
+      "latitude": 35.7115736,
+      "longitude": 51.4069522,
+      "lines": [
+        3,
+        6
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.7122344,
+          "longitude": 51.4068506,
+          "source_url": "https://www.openstreetmap.org/node/5078343294",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685397",
+          "name": "کشاورز",
+          "name_en": "Keshavarz"
+        },
+        {
+          "latitude": 35.7122136,
+          "longitude": 51.4080607,
+          "source_url": "https://www.openstreetmap.org/node/4174121393",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685397",
+          "name": "شاهد",
+          "name_en": "Shahed"
+        },
+        {
+          "latitude": 35.7112114,
+          "longitude": 51.407454,
+          "source_url": "https://www.openstreetmap.org/node/4780665323",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685397",
+          "name": "شهدای سازش",
+          "name_en": "Shohada-ye Sazesh"
+        },
+        {
+          "latitude": 35.7111946,
+          "longitude": 51.4066757,
+          "source_url": "https://www.openstreetmap.org/node/5108879548",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685397",
+          "name": "ولیعصر جنوب",
+          "name_en": "South Valiasr"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3853324399"
+    },
+    {
+      "id": "metro-3815454724",
+      "name": "میدان خراسان",
+      "slug": "Meydan-e Khorasan",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6653691,
+      "longitude": 51.4456005,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815454724"
+    },
+    {
+      "id": "metro-660627594",
+      "name": "میدان شهدا",
+      "slug": "Meydan-e Shohada",
+      "aliases": [
+        "Meydan-e Shohada metro station",
+        "ایستگاه مترو میدان شهدا"
+      ],
+      "province_id": 24,
+      "latitude": 35.6900818,
+      "longitude": 51.4473848,
+      "lines": [
+        4,
+        6
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.6902934,
+          "longitude": 51.4470541,
+          "source_url": "https://www.openstreetmap.org/node/13227857771",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685437",
+          "name": "غربی",
+          "name_en": "west"
+        },
+        {
+          "latitude": 35.6902721,
+          "longitude": 51.4474716,
+          "source_url": "https://www.openstreetmap.org/node/4499905470",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685437",
+          "name": "شرقی",
+          "name_en": "east"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660627594"
+    },
+    {
+      "id": "metro-3784648885",
+      "name": "میدان صنعت",
+      "slug": "Meydan-e San'at",
+      "aliases": [
+        "San'at Square"
+      ],
+      "province_id": 24,
+      "latitude": 35.7543831,
+      "longitude": 51.3679617,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [
+        {
+          "latitude": 35.7545403,
+          "longitude": 51.3674006,
+          "source_url": "https://www.openstreetmap.org/node/7232916108",
+          "station_area_url": "https://www.openstreetmap.org/relation/7685414",
+          "name": "شمال غربی",
+          "name_en": "northwest"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/3784648885"
+    },
+    {
+      "id": "metro-3784645934",
+      "name": "میدان قیام",
+      "slug": "Meydan-e Ghiyam",
+      "aliases": [
+        "Meydan-e Ghiyam metro station",
+        "ایستگاه مترو میدان قیام"
+      ],
+      "province_id": 24,
+      "latitude": 35.6697324,
+      "longitude": 51.4364777,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784645934"
+    },
+    {
+      "id": "metro-660640714",
+      "name": "میدان محمدیه",
+      "slug": "Meydan-e Mohammadiyeh",
+      "aliases": [
+        "Meydan-e Mohammadiyeh metro station",
+        "ایستگاه مترو میدان محمدیه"
+      ],
+      "province_id": 24,
+      "latitude": 35.6678066,
+      "longitude": 51.4158124,
+      "lines": [
+        1,
+        7
+      ],
+      "interchange": true,
+      "entrances": [
+        {
+          "latitude": 35.6675298,
+          "longitude": 51.417338,
+          "source_url": "https://www.openstreetmap.org/node/13202918233",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680023",
+          "name": "پورالله وردی",
+          "name_en": "Pourallah Verdi"
+        },
+        {
+          "latitude": 35.668182,
+          "longitude": 51.416374,
+          "source_url": "https://www.openstreetmap.org/node/2317957434",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680023",
+          "name": "میدان محمدیه شمال شرقی",
+          "name_en": "Mohammadieh Square Northeast"
+        },
+        {
+          "latitude": 35.6671869,
+          "longitude": 51.4152159,
+          "source_url": "https://www.openstreetmap.org/node/2317957425",
+          "station_area_url": "https://www.openstreetmap.org/relation/7680023",
+          "name": "میدان محمدیه جنوب غربی",
+          "name_en": "Mohammadieh Square Southwest"
+        }
+      ],
+      "source_url": "https://www.openstreetmap.org/node/660640714"
+    },
+    {
+      "id": "metro-12457390951",
+      "name": "میدان هروی",
+      "slug": "Meydan-e Heravi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7720416,
+      "longitude": 51.4731866,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/12457390951"
+    },
+    {
+      "id": "metro-3784648857",
+      "name": "میدان کتاب",
+      "slug": "Meydan-e Ketab",
+      "aliases": [
+        "Ketab Square"
+      ],
+      "province_id": 24,
+      "latitude": 35.777281,
+      "longitude": 51.3558412,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648857"
+    },
+    {
+      "id": "metro-2169380721",
+      "name": "میرداماد",
+      "slug": "Mirdamad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7601006,
+      "longitude": 51.4339605,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169380721"
+    },
+    {
+      "id": "metro-2831259303",
+      "name": "میرزای شیرازی",
+      "slug": "Mirza-ye Shirazi",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7281781,
+      "longitude": 51.4169344,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2831259303"
+    },
+    {
+      "id": "metro-2169732969",
+      "name": "نبرد",
+      "slug": "Nabard",
+      "aliases": [
+        "Nabard metro station",
+        "ایستگاه مترو نبرد"
+      ],
+      "province_id": 24,
+      "latitude": 35.6915682,
+      "longitude": 51.4773477,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169732969"
+    },
+    {
+      "id": "metro-4453614390",
+      "name": "نعمت آباد",
+      "slug": "Ne'mat Abad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6337606,
+      "longitude": 51.3472831,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4453614390"
+    },
+    {
+      "id": "metro-3778861790",
+      "name": "نوبنیاد",
+      "slug": "Nobonyad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7903188,
+      "longitude": 51.479379,
+      "lines": [
+        3
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3778861790"
+    },
+    {
+      "id": "metro-2169732980",
+      "name": "نیرو هوایی",
+      "slug": "Nirou Havayi",
+      "aliases": [
+        "Nirou Havayi metro station",
+        "ایستگاه مترو نیرو هوایی"
+      ],
+      "province_id": 24,
+      "latitude": 35.6927945,
+      "longitude": 51.4880742,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169732980"
+    },
+    {
+      "id": "metro-14075125224",
+      "name": "هلال احمر",
+      "slug": "Helal Ahmar",
+      "aliases": [
+        "Helal Ahmar metro station",
+        "ایستگاه مترو هلال احمر"
+      ],
+      "province_id": 24,
+      "latitude": 35.6677915,
+      "longitude": 51.3870914,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/14075125224"
+    },
+    {
+      "id": "metro-234513683",
+      "name": "وردآورد",
+      "slug": "Vardavard",
+      "aliases": [
+        "Vardavard metro station",
+        "ایستگاه مترو وردآورد"
+      ],
+      "province_id": 24,
+      "latitude": 35.7437486,
+      "longitude": 51.1506112,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/234513683"
+    },
+    {
+      "id": "metro-5604726884",
+      "name": "ورزشگاه آزادی",
+      "slug": "Varzeshgah-e Azadi",
+      "aliases": [
+        "Varzeshgah-e Azadi metro station",
+        "ایستگاه مترو ورزشگاه آزادی"
+      ],
+      "province_id": 24,
+      "latitude": 35.7164762,
+      "longitude": 51.2814626,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/5604726884"
+    },
+    {
+      "id": "metro-3784648869",
+      "name": "ورزشگاه تختی",
+      "slug": "Varzeshgah-e Takhti",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6645008,
+      "longitude": 51.5105881,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648869"
+    },
+    {
+      "id": "metro-2169292190",
+      "name": "پالایشگاه",
+      "slug": "Palayeshgah",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.5599329,
+      "longitude": 51.3993896,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169292190"
+    },
+    {
+      "id": "metro-3548939496",
+      "name": "پانزده خرداد",
+      "slug": "Panzdah-e Khordad",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6782744,
+      "longitude": 51.4172945,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3548939496"
+    },
+    {
+      "id": "metro-660636159",
+      "name": "پایانه جنوب",
+      "slug": "Payaneh Jonoub",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6508488,
+      "longitude": 51.4162934,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/660636159"
+    },
+    {
+      "id": "metro-4544628125",
+      "name": "پیروزی",
+      "slug": "Pirouzi",
+      "aliases": [
+        "Pirouzi metro station",
+        "ایستگاه مترو پیروزی"
+      ],
+      "province_id": 24,
+      "latitude": 35.690986,
+      "longitude": 51.467861,
+      "lines": [
+        4
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/4544628125"
+    },
+    {
+      "id": "metro-3784645922",
+      "name": "چهل تن دولاب",
+      "slug": "Chehel Tan-e Doulab",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6679421,
+      "longitude": 51.4623861,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784645922"
+    },
+    {
+      "id": "metro-5604726918",
+      "name": "چیتگر",
+      "slug": "Chitgar",
+      "aliases": [
+        "Chitgar metro station",
+        "ایستگاه مترو چیتگر"
+      ],
+      "province_id": 24,
+      "latitude": 35.7170263,
+      "longitude": 51.2438696,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/5604726918"
+    },
+    {
+      "id": "metro-3853324374",
+      "name": "کارگر",
+      "slug": "Kargar",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7144491,
+      "longitude": 51.3893823,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324374"
+    },
+    {
+      "id": "metro-14066056331",
+      "name": "کرج",
+      "slug": "Karaj",
+      "aliases": [
+        "Fardis",
+        "Karaj metro station",
+        "ایستگاه مترو کرج",
+        "فردیس"
+      ],
+      "province_id": 31,
+      "latitude": 35.7866975,
+      "longitude": 51.0025417,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/14066056331"
+    },
+    {
+      "id": "metro-3784648769",
+      "name": "کمیل",
+      "slug": "Komeyl",
+      "aliases": [
+        "Komeyl metro station",
+        "ایستگاه مترو کمیل"
+      ],
+      "province_id": 24,
+      "latitude": 35.6813541,
+      "longitude": 51.380049,
+      "lines": [
+        7
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3784648769"
+    },
+    {
+      "id": "metro-2169298472",
+      "name": "کهریزک",
+      "slug": "Kahrizak",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.5217482,
+      "longitude": 51.3692684,
+      "lines": [
+        1
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/2169298472"
+    },
+    {
+      "id": "metro-3853324444",
+      "name": "کیان‌شهر",
+      "slug": "Kiyan Shahr",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.6330612,
+      "longitude": 51.4486775,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3853324444"
+    },
+    {
+      "id": "metro-315075904",
+      "name": "گرمدره",
+      "slug": "Garmdarreh",
+      "aliases": [
+        "Garmdarreh metro station",
+        "ایستگاه مترو گرمدره"
+      ],
+      "province_id": 31,
+      "latitude": 35.7517182,
+      "longitude": 51.0817786,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/315075904"
+    },
+    {
+      "id": "metro-234515534",
+      "name": "گلشهر",
+      "slug": "Golshahr",
+      "aliases": [
+        "Golshahr metro station",
+        "ایستگاه مترو گلشهر"
+      ],
+      "province_id": 31,
+      "latitude": 35.8249306,
+      "longitude": 50.9328992,
+      "lines": [
+        5
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/234515534"
+    },
+    {
+      "id": "metro-3815456823",
+      "name": "یادگار امام(ره)",
+      "slug": "Yadegar-e Emam",
+      "aliases": [],
+      "province_id": 24,
+      "latitude": 35.7347651,
+      "longitude": 51.3460208,
+      "lines": [
+        6
+      ],
+      "interchange": false,
+      "entrances": [],
+      "source_url": "https://www.openstreetmap.org/node/3815456823"
+    }
+  ]
+}

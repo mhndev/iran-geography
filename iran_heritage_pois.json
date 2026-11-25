@@ -23,6 +23,50 @@
       "point_type": "site",
       "source_url": "https://whc.unesco.org/en/list/115/",
       "verified_on": "2026-11-25"
+    },
+    {
+      "id": "bam-cultural-landscape",
+      "name": "بم و منظر فرهنگی آن",
+      "slug": "Bam and its Cultural Landscape",
+      "category": "heritage_site",
+      "province_id": 9,
+      "latitude": 29.11683,
+      "longitude": 58.3666667,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/1208/",
+      "verified_on": "2026-11-25",
+      "aliases": [
+        "ارگ بم",
+        "Arg-e Bam"
+      ]
+    },
+    {
+      "id": "pasargadae",
+      "name": "پاسارگاد",
+      "slug": "Pasargadae",
+      "category": "heritage_site",
+      "province_id": 8,
+      "latitude": 30.19383,
+      "longitude": 53.16729,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/1106/",
+      "verified_on": "2026-11-25"
+    },
+    {
+      "id": "gonbad-e-qabus",
+      "name": "گنبد قابوس",
+      "slug": "Gonbad-e Qabus",
+      "category": "heritage_site",
+      "province_id": 28,
+      "latitude": 37.2580278,
+      "longitude": 55.169,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/1398/",
+      "verified_on": "2026-11-25",
+      "aliases": [
+        "برج گنبد قابوس",
+        "Gonbad-e Kavus Tower"
+      ]
     }
   ]
 }

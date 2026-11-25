@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Iran’s provinces, cities, landmarks and Tehran Metro in Persian and English.">
+  <title>Iran Atlas</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./vendor/leaflet.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./vendor/leaflet.js"></script>
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Iran Atlas">
+      <span class="brand-mark" aria-hidden="true">✳</span><span>Iran <i>Atlas</i></span>
+    </a>
+    <nav class="mast-actions" aria-label="Atlas">
+      <a class="source-link" href="https://github.com/mhndev/iran-geography" rel="noopener" data-text="repository">Repository</a>
+      <button type="button" id="language" lang="fa">فارسی</button>
+    </nav>
+  </header>
+  <main class="atlas">
+    <aside class="panel" id="panel" aria-label="Explore the atlas">
+      <div class="intro">
+        <p class="intro-label" data-text="atlasLabel">IRAN GEOGRAPHY</p>
+        <h1 data-text="explore">Explore Iran</h1>
+      </div>
+      <form id="search-form" role="search">
+        <label for="query" class="visually-hidden" data-text="searchLabel">Search places</label>
+        <div class="search-field">
+          <span class="search-symbol" aria-hidden="true"></span>
+          <input id="query" type="search" autocomplete="off" placeholder="Search in Persian or English…" dir="auto">
+          <button id="clear-search" type="button" aria-label="Clear search" hidden>×</button>
+        </div>
+      </form>
+      <section aria-labelledby="collections">
+        <h2 id="collections" data-text="collections">Collections</h2>
+        <div id="collection-list" class="pills"></div>
+      </section>
+      <section aria-labelledby="browse-area">
+        <h2 id="browse-area" data-text="browseArea">Browse by area</h2>
+        <div class="area-fields">
+          <label><span data-text="province">Province</span><select id="province-picker"></select></label>
+          <label><span data-text="county">County</span><select id="county-picker" disabled></select></label>
+          <label class="city-field"><span data-text="city">City</span><select id="city-picker" disabled></select></label>
+        </div>
+      </section>
+      <details class="layer-panel" open>
+        <summary data-text="categories">Map layers</summary>
+        <div class="layer-actions"><button id="layers-on" type="button" data-text="layersOn">Show all</button><button id="layers-off" type="button" data-text="layersOff">Hide all</button></div>
+        <div id="category-list" class="pills"></div>
+      </details>
+      <div id="scope" class="scope" hidden></div>
+      <section id="detail" class="detail" aria-live="polite" hidden></section>
+      <section class="results" aria-labelledby="results-title">
+        <div class="results-head">
+          <h2 id="results-title" data-text="provinces">Provinces</h2>
+          <span id="result-count" aria-live="polite"></span>
+        </div>
+        <label class="list-filter"><span data-text="listCategory">List category</span><select id="list-category"></select></label>
+        <p id="status" role="status">Loading the atlas…</p>
+        <ul id="results"></ul>
+        <button type="button" id="more" hidden data-text="more">Show more</button>
+      </section>
+    </aside>
+    <section class="map-frame" aria-label="Atlas map">
+      <div id="map" aria-label="Interactive map of Iran"></div>
+      <div class="map-context">
+        <span class="map-kicker" data-text="mapLabel">MAP VIEW</span>
+        <strong id="map-title">Iran</strong>
+      </div>
+      <div class="map-actions">
+        <button type="button" id="reset" data-text="overview">Iran overview</button>
+        <button type="button" id="streets" aria-pressed="false" data-text="streetMap">Street map</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

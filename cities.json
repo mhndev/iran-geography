@@ -2926,5 +2926,1058 @@
     "province_id": 24,
     "latitude": 35.704,
     "longitude": 51.102
+  },
+  {
+    "id": 435,
+    "title": "خمام",
+    "slug": "Khomam",
+    "province_id": 2,
+    "latitude": 37.5518742,
+    "longitude": 49.7212098,
+    "source_url": "https://www.openstreetmap.org/relation/13074061"
+  },
+  {
+    "id": 436,
+    "title": "سیاهکل",
+    "slug": "Siahkal",
+    "province_id": 2,
+    "latitude": 37.1521893,
+    "longitude": 49.8716407,
+    "source_url": "https://www.openstreetmap.org/relation/6555090"
+  },
+  {
+    "id": 437,
+    "title": "سوادکوه شمالی",
+    "slug": "North Savadkuh",
+    "province_id": 3,
+    "latitude": 36.260421,
+    "longitude": 52.8621598,
+    "source_url": "https://www.openstreetmap.org/relation/6555088"
+  },
+  {
+    "id": 438,
+    "title": "سیمرغ",
+    "slug": "Simorgh",
+    "province_id": 3,
+    "latitude": 36.5762414,
+    "longitude": 52.8076502,
+    "source_url": "https://www.openstreetmap.org/relation/6555095"
+  },
+  {
+    "id": 439,
+    "title": "میاندورود",
+    "slug": "Miandorud",
+    "province_id": 3,
+    "latitude": 36.7223537,
+    "longitude": 53.200464,
+    "source_url": "https://www.openstreetmap.org/relation/6555225"
+  },
+  {
+    "id": 440,
+    "title": "نکا",
+    "slug": "Neka",
+    "province_id": 3,
+    "latitude": 36.6768659,
+    "longitude": 53.3221052,
+    "source_url": "https://www.openstreetmap.org/relation/6555237"
+  },
+  {
+    "id": 441,
+    "title": "خداآفرین",
+    "slug": "Khoda Afarin",
+    "province_id": 4,
+    "latitude": 39.0811877,
+    "longitude": 46.9441464,
+    "source_url": "https://www.openstreetmap.org/relation/6554988"
+  },
+  {
+    "id": 442,
+    "title": "هوراند",
+    "slug": "Hurand",
+    "province_id": 4,
+    "latitude": 38.8604709,
+    "longitude": 47.3683131,
+    "source_url": "https://www.openstreetmap.org/relation/6556274"
+  },
+  {
+    "id": 443,
+    "title": "باروق",
+    "slug": "Baruq",
+    "province_id": 5,
+    "latitude": 36.9546339,
+    "longitude": 46.3247366,
+    "source_url": "https://www.openstreetmap.org/relation/14484928"
+  },
+  {
+    "id": 444,
+    "title": "میرآباد",
+    "slug": "Mirabad",
+    "province_id": 5,
+    "latitude": 36.4055055,
+    "longitude": 45.3719463,
+    "source_url": "https://www.openstreetmap.org/relation/16505544"
+  },
+  {
+    "id": 445,
+    "title": "چایپاره",
+    "slug": "Chaypareh",
+    "province_id": 5,
+    "latitude": 38.8900366,
+    "longitude": 45.0282295,
+    "source_url": "https://www.openstreetmap.org/relation/6555276"
+  },
+  {
+    "id": 446,
+    "title": "چهاربرج",
+    "slug": "Chaharborj",
+    "province_id": 5,
+    "latitude": 37.1250023,
+    "longitude": 45.9772001,
+    "source_url": "https://www.openstreetmap.org/relation/14484875"
+  },
+  {
+    "id": 447,
+    "title": "آغاجاری",
+    "slug": "Aghajari",
+    "province_id": 7,
+    "latitude": 30.7483691,
+    "longitude": 49.9107756,
+    "source_url": "https://www.openstreetmap.org/relation/6554863"
+  },
+  {
+    "id": 448,
+    "title": "امیدیه",
+    "slug": "Omidieh",
+    "province_id": 7,
+    "latitude": 30.792077,
+    "longitude": 49.6941711,
+    "source_url": "https://www.openstreetmap.org/relation/6554893"
+  },
+  {
+    "id": 449,
+    "title": "اندیکا",
+    "slug": "Andika",
+    "province_id": 7,
+    "latitude": 32.3212491,
+    "longitude": 49.5970009,
+    "source_url": "https://www.openstreetmap.org/relation/6554895"
+  },
+  {
+    "id": 450,
+    "title": "حمیدیه",
+    "slug": "Hamidieh",
+    "province_id": 7,
+    "latitude": 31.4942201,
+    "longitude": 48.4844955,
+    "source_url": "https://www.openstreetmap.org/relation/6554985"
+  },
+  {
+    "id": 451,
+    "title": "دزپارت",
+    "slug": "Dezpart",
+    "province_id": 7,
+    "latitude": 31.6707034,
+    "longitude": 50.2130602,
+    "source_url": "https://www.openstreetmap.org/relation/14485001"
+  },
+  {
+    "id": 452,
+    "title": "صیدون",
+    "slug": "Seydun",
+    "province_id": 7,
+    "latitude": 31.367373,
+    "longitude": 50.0844132,
+    "source_url": "https://www.openstreetmap.org/relation/16712076"
+  },
+  {
+    "id": 453,
+    "title": "هفتکل",
+    "slug": "Haftkel",
+    "province_id": 7,
+    "latitude": 31.5403706,
+    "longitude": 49.4011647,
+    "source_url": "https://www.openstreetmap.org/relation/6555252"
+  },
+  {
+    "id": 454,
+    "title": "هویزه",
+    "slug": "Hoveyzeh",
+    "province_id": 7,
+    "latitude": 31.3357245,
+    "longitude": 47.9840835,
+    "source_url": "https://www.openstreetmap.org/relation/6555255"
+  },
+  {
+    "id": 455,
+    "title": "کرخه",
+    "slug": "Karkheh",
+    "province_id": 7,
+    "latitude": 31.8719568,
+    "longitude": 48.3636142,
+    "source_url": "https://www.openstreetmap.org/relation/13073995"
+  },
+  {
+    "id": 456,
+    "title": "اوز",
+    "slug": "Evaz",
+    "province_id": 8,
+    "latitude": 27.7625325,
+    "longitude": 54.0051497,
+    "source_url": "https://www.openstreetmap.org/relation/6555350"
+  },
+  {
+    "id": 457,
+    "title": "بختگان",
+    "slug": "Bakhtegan",
+    "province_id": 8,
+    "latitude": 29.8078337,
+    "longitude": 53.7268534,
+    "source_url": "https://www.openstreetmap.org/relation/11166656"
+  },
+  {
+    "id": 458,
+    "title": "بیضا",
+    "slug": "Beyza",
+    "province_id": 8,
+    "latitude": 30.008388,
+    "longitude": 52.3584413,
+    "source_url": "https://www.openstreetmap.org/relation/6555409"
+  },
+  {
+    "id": 459,
+    "title": "جویم",
+    "slug": "Juyom",
+    "province_id": 8,
+    "latitude": 28.2598958,
+    "longitude": 53.9806139,
+    "source_url": "https://www.openstreetmap.org/relation/16512852"
+  },
+  {
+    "id": 460,
+    "title": "خرامه",
+    "slug": "Kharameh",
+    "province_id": 8,
+    "latitude": 29.498294,
+    "longitude": 53.3122486,
+    "source_url": "https://www.openstreetmap.org/relation/6554990"
+  },
+  {
+    "id": 461,
+    "title": "خفر",
+    "slug": "Khafr",
+    "province_id": 8,
+    "latitude": 28.9670095,
+    "longitude": 53.2127701,
+    "source_url": "https://www.openstreetmap.org/relation/6555485"
+  },
+  {
+    "id": 462,
+    "title": "زرقان",
+    "slug": "Zarghan",
+    "province_id": 8,
+    "latitude": 29.774274,
+    "longitude": 52.7215709,
+    "source_url": "https://www.openstreetmap.org/relation/6555551"
+  },
+  {
+    "id": 463,
+    "title": "سرچهان",
+    "slug": "Sarchehan",
+    "province_id": 8,
+    "latitude": 30.0327056,
+    "longitude": 53.7165328,
+    "source_url": "https://www.openstreetmap.org/relation/11166543"
+  },
+  {
+    "id": 464,
+    "title": "نی ریز",
+    "slug": "Neyriz",
+    "province_id": 8,
+    "latitude": 29.1972504,
+    "longitude": 54.3267782,
+    "source_url": "https://www.openstreetmap.org/relation/6555243"
+  },
+  {
+    "id": 465,
+    "title": "کوه‌چنار",
+    "slug": "Kooh Chenar",
+    "province_id": 8,
+    "latitude": 29.8510025,
+    "longitude": 51.5819119,
+    "source_url": "https://www.openstreetmap.org/relation/11164344"
+  },
+  {
+    "id": 466,
+    "title": "گراش",
+    "slug": "Gerash",
+    "province_id": 8,
+    "latitude": 27.6701538,
+    "longitude": 54.1378384,
+    "source_url": "https://www.openstreetmap.org/relation/6555282"
+  },
+  {
+    "id": 467,
+    "title": "ارزوئیه",
+    "slug": "Arzuiyeh",
+    "province_id": 9,
+    "latitude": 28.4568592,
+    "longitude": 56.3634502,
+    "source_url": "https://www.openstreetmap.org/relation/6554875"
+  },
+  {
+    "id": 468,
+    "title": "جازموریان",
+    "slug": "Jazmurian",
+    "province_id": 9,
+    "latitude": 27.8537078,
+    "longitude": 58.5771447,
+    "source_url": "https://www.openstreetmap.org/relation/19515969"
+  },
+  {
+    "id": 469,
+    "title": "فاریاب",
+    "slug": "Faryab",
+    "province_id": 9,
+    "latitude": 28.0957745,
+    "longitude": 57.2287442,
+    "source_url": "https://www.openstreetmap.org/relation/6555128"
+  },
+  {
+    "id": 470,
+    "title": "فهرج",
+    "slug": "Fahraj",
+    "province_id": 9,
+    "latitude": 28.9454742,
+    "longitude": 58.8845357,
+    "source_url": "https://www.openstreetmap.org/relation/6555141"
+  },
+  {
+    "id": 471,
+    "title": "گنبکی",
+    "slug": "Gonbaki",
+    "province_id": 9,
+    "latitude": 28.5240443,
+    "longitude": 58.7218163,
+    "source_url": "https://www.openstreetmap.org/relation/6556347"
+  },
+  {
+    "id": 472,
+    "title": "باخرز",
+    "slug": "Bakharz",
+    "province_id": 10,
+    "latitude": 34.9941781,
+    "longitude": 60.3148224,
+    "source_url": "https://www.openstreetmap.org/relation/6554906"
+  },
+  {
+    "id": 473,
+    "title": "خوشاب",
+    "slug": "Khoshab",
+    "province_id": 10,
+    "latitude": 36.405159,
+    "longitude": 58.0386871,
+    "source_url": "https://www.openstreetmap.org/relation/6555006"
+  },
+  {
+    "id": 474,
+    "title": "زبرخان",
+    "slug": "Zeberkhan",
+    "province_id": 10,
+    "latitude": 36.1063279,
+    "longitude": 59.0597459,
+    "source_url": "https://www.openstreetmap.org/relation/11093556"
+  },
+  {
+    "id": 475,
+    "title": "ششتمد",
+    "slug": "Sheshtamad",
+    "province_id": 10,
+    "latitude": 35.9585753,
+    "longitude": 57.766785,
+    "source_url": "https://www.openstreetmap.org/relation/11093557"
+  },
+  {
+    "id": 476,
+    "title": "صالح آباد",
+    "slug": "Saleh Abad",
+    "province_id": 10,
+    "latitude": 35.6871984,
+    "longitude": 61.0943286,
+    "source_url": "https://www.openstreetmap.org/relation/6555647"
+  },
+  {
+    "id": 477,
+    "title": "طرقبه شاندیز",
+    "slug": "torghabeh shandiz",
+    "province_id": 10,
+    "latitude": 36.3097179,
+    "longitude": 59.3741338,
+    "source_url": "https://www.openstreetmap.org/relation/6554958"
+  },
+  {
+    "id": 478,
+    "title": "فیروزه",
+    "slug": "Firuzeh",
+    "province_id": 10,
+    "latitude": 36.2863586,
+    "longitude": 58.5868002,
+    "source_url": "https://www.openstreetmap.org/relation/6555145"
+  },
+  {
+    "id": 479,
+    "title": "میان‌جلگه",
+    "slug": "Miyan Jolgeh",
+    "province_id": 10,
+    "latitude": 36.0433722,
+    "longitude": 58.6829884,
+    "source_url": "https://www.openstreetmap.org/relation/6556233"
+  },
+  {
+    "id": 480,
+    "title": "کوهسرخ",
+    "slug": "KoohSorkh",
+    "province_id": 10,
+    "latitude": 35.4751589,
+    "longitude": 58.4586724,
+    "source_url": "https://www.openstreetmap.org/relation/11096697"
+  },
+  {
+    "id": 481,
+    "title": "گلبهار",
+    "slug": "Golbahar",
+    "province_id": 10,
+    "latitude": 36.5658191,
+    "longitude": 59.1801683,
+    "source_url": "https://www.openstreetmap.org/relation/12173252"
+  },
+  {
+    "id": 482,
+    "title": "بوئین و میاندشت",
+    "slug": "Buin and Miandasht",
+    "province_id": 11,
+    "latitude": 33.0805194,
+    "longitude": 50.1598427,
+    "source_url": "https://www.openstreetmap.org/relation/6554950"
+  },
+  {
+    "id": 483,
+    "title": "جرقویه",
+    "slug": "Jarqavieh",
+    "province_id": 11,
+    "latitude": 32.3041598,
+    "longitude": 52.2032026,
+    "source_url": "https://www.openstreetmap.org/relation/14474282"
+  },
+  {
+    "id": 484,
+    "title": "خور و بیابانک",
+    "slug": "Khur and Biabanak",
+    "province_id": 11,
+    "latitude": 33.7761331,
+    "longitude": 55.0828304,
+    "source_url": "https://www.openstreetmap.org/relation/6555004"
+  },
+  {
+    "id": 485,
+    "title": "نائین",
+    "slug": "Nain",
+    "province_id": 11,
+    "latitude": 32.8610688,
+    "longitude": 53.085985,
+    "source_url": "https://www.openstreetmap.org/relation/6555231"
+  },
+  {
+    "id": 486,
+    "title": "هرند",
+    "slug": "Harand",
+    "province_id": 11,
+    "latitude": 32.5625906,
+    "longitude": 52.4355327,
+    "source_url": "https://www.openstreetmap.org/relation/14474249"
+  },
+  {
+    "id": 487,
+    "title": "ورزنه",
+    "slug": "Varzaneh",
+    "province_id": 11,
+    "latitude": 32.4203632,
+    "longitude": 52.6486815,
+    "source_url": "https://www.openstreetmap.org/relation/14474257"
+  },
+  {
+    "id": 488,
+    "title": "کوهپایه",
+    "slug": "Kuhpayeh",
+    "province_id": 11,
+    "latitude": 32.7138321,
+    "longitude": 52.4405045,
+    "source_url": "https://www.openstreetmap.org/relation/14474306"
+  },
+  {
+    "id": 489,
+    "title": "بمپور",
+    "slug": "Bampour",
+    "province_id": 12,
+    "latitude": 27.1941781,
+    "longitude": 60.4554816,
+    "source_url": "https://www.openstreetmap.org/relation/11147665"
+  },
+  {
+    "id": 490,
+    "title": "تفتان",
+    "slug": "Taftan",
+    "province_id": 12,
+    "latitude": 28.5400131,
+    "longitude": 60.7597704,
+    "source_url": "https://www.openstreetmap.org/relation/6556259"
+  },
+  {
+    "id": 491,
+    "title": "دشتیاری",
+    "slug": "Dashtiari",
+    "province_id": 12,
+    "latitude": 25.3924385,
+    "longitude": 61.3115373,
+    "source_url": "https://www.openstreetmap.org/relation/12225357"
+  },
+  {
+    "id": 492,
+    "title": "راسک",
+    "slug": "Rask",
+    "province_id": 12,
+    "latitude": 26.2368044,
+    "longitude": 61.3987716,
+    "source_url": "https://www.openstreetmap.org/relation/12225017"
+  },
+  {
+    "id": 493,
+    "title": "زرآباد",
+    "slug": "Zarabad",
+    "province_id": 12,
+    "latitude": 25.5961564,
+    "longitude": 59.402519,
+    "source_url": "https://www.openstreetmap.org/relation/6555550"
+  },
+  {
+    "id": 494,
+    "title": "زهک",
+    "slug": "Zehak",
+    "province_id": 12,
+    "latitude": 30.8122526,
+    "longitude": 61.6330082,
+    "source_url": "https://www.openstreetmap.org/relation/6555061"
+  },
+  {
+    "id": 495,
+    "title": "سیب و سوران",
+    "slug": "Sib and Suran",
+    "province_id": 12,
+    "latitude": 27.2871579,
+    "longitude": 61.9997051,
+    "source_url": "https://www.openstreetmap.org/relation/6555091"
+  },
+  {
+    "id": 496,
+    "title": "قصرقند",
+    "slug": "Qasr-e-Ghand",
+    "province_id": 12,
+    "latitude": 26.2394578,
+    "longitude": 60.7419235,
+    "source_url": "https://www.openstreetmap.org/relation/6555154"
+  },
+  {
+    "id": 497,
+    "title": "لاشار",
+    "slug": "Lashar",
+    "province_id": 12,
+    "latitude": 26.8384487,
+    "longitude": 60.1725848,
+    "source_url": "https://www.openstreetmap.org/relation/6555762"
+  },
+  {
+    "id": 498,
+    "title": "میرجاوه",
+    "slug": "Mirjaveh",
+    "province_id": 12,
+    "latitude": 29.0149246,
+    "longitude": 61.4540744,
+    "source_url": "https://www.openstreetmap.org/relation/6555228"
+  },
+  {
+    "id": 499,
+    "title": "نیمروز",
+    "slug": "Nimruz",
+    "province_id": 12,
+    "latitude": 30.9594401,
+    "longitude": 60.5434481,
+    "source_url": "https://www.openstreetmap.org/relation/6555247"
+  },
+  {
+    "id": 500,
+    "title": "هامون",
+    "slug": "Hamun",
+    "province_id": 12,
+    "latitude": 30.5512348,
+    "longitude": 61.2509405,
+    "source_url": "https://www.openstreetmap.org/relation/6555248"
+  },
+  {
+    "id": 501,
+    "title": "هیرمند",
+    "slug": "Hirmand",
+    "province_id": 12,
+    "latitude": 31.1714143,
+    "longitude": 61.6902394,
+    "source_url": "https://www.openstreetmap.org/relation/6555256"
+  },
+  {
+    "id": 502,
+    "title": "کنارک",
+    "slug": "Konarak",
+    "province_id": 12,
+    "latitude": 25.4202202,
+    "longitude": 60.1017718,
+    "source_url": "https://www.openstreetmap.org/relation/6555174"
+  },
+  {
+    "id": 503,
+    "title": "گلشن",
+    "slug": "Golshan",
+    "province_id": 12,
+    "latitude": 27.6033419,
+    "longitude": 62.7097131,
+    "source_url": "https://www.openstreetmap.org/relation/6555429"
+  },
+  {
+    "id": 504,
+    "title": "درگزین",
+    "slug": "Dargazin",
+    "province_id": 14,
+    "latitude": 35.3541235,
+    "longitude": 49.2570932,
+    "source_url": "https://www.openstreetmap.org/relation/12225371"
+  },
+  {
+    "id": 505,
+    "title": "فامنین",
+    "slug": "Famenin",
+    "province_id": 14,
+    "latitude": 35.0462065,
+    "longitude": 49.0979958,
+    "source_url": "https://www.openstreetmap.org/relation/6555129"
+  },
+  {
+    "id": 506,
+    "title": "بن",
+    "slug": "Ben",
+    "province_id": 15,
+    "latitude": 32.5863168,
+    "longitude": 50.6190631,
+    "source_url": "https://www.openstreetmap.org/relation/6554935"
+  },
+  {
+    "id": 507,
+    "title": "خانمیرزا",
+    "slug": "Khanmirza",
+    "province_id": 15,
+    "latitude": 31.5528467,
+    "longitude": 51.0576007,
+    "source_url": "https://www.openstreetmap.org/relation/11144781"
+  },
+  {
+    "id": 508,
+    "title": "فلارد",
+    "slug": "Falard",
+    "province_id": 15,
+    "latitude": 31.2875983,
+    "longitude": 51.1899898,
+    "source_url": "https://www.openstreetmap.org/relation/16545694"
+  },
+  {
+    "id": 509,
+    "title": "کیار",
+    "slug": "Kiar",
+    "province_id": 15,
+    "latitude": 31.922382,
+    "longitude": 50.6461371,
+    "source_url": "https://www.openstreetmap.org/relation/6555184"
+  },
+  {
+    "id": 510,
+    "title": "معمولان",
+    "slug": "Mamulan",
+    "province_id": 16,
+    "latitude": 33.3797253,
+    "longitude": 47.9604832,
+    "source_url": "https://www.openstreetmap.org/relation/6555266"
+  },
+  {
+    "id": 511,
+    "title": "بدره",
+    "slug": "Badreh",
+    "province_id": 17,
+    "latitude": 33.3060497,
+    "longitude": 47.0385999,
+    "source_url": "https://www.openstreetmap.org/relation/6554915"
+  },
+  {
+    "id": 512,
+    "title": "ملکشاهی",
+    "slug": "Malekshahi",
+    "province_id": 17,
+    "latitude": 33.3846543,
+    "longitude": 46.5973663,
+    "source_url": "https://www.openstreetmap.org/relation/6555213"
+  },
+  {
+    "id": 513,
+    "title": "هلیلان",
+    "slug": "Holeylan",
+    "province_id": 17,
+    "latitude": 33.728139,
+    "longitude": 47.0678839,
+    "source_url": "https://www.openstreetmap.org/relation/11155682"
+  },
+  {
+    "id": 514,
+    "title": "چرداول",
+    "slug": "Chardavol",
+    "province_id": 17,
+    "latitude": 33.7675797,
+    "longitude": 46.5654912,
+    "source_url": "https://www.openstreetmap.org/relation/6555278"
+  },
+  {
+    "id": 515,
+    "title": "چوار",
+    "slug": "Chavar",
+    "province_id": 17,
+    "latitude": 33.6967187,
+    "longitude": 46.2967631,
+    "source_url": "https://www.openstreetmap.org/relation/13074214"
+  },
+  {
+    "id": 516,
+    "title": "مارگون",
+    "slug": "Margown",
+    "province_id": 18,
+    "latitude": 31.1709762,
+    "longitude": 50.8667389,
+    "source_url": "https://www.openstreetmap.org/relation/12225381"
+  },
+  {
+    "id": 517,
+    "title": "چرام",
+    "slug": "Charam",
+    "province_id": 18,
+    "latitude": 30.8061861,
+    "longitude": 50.8777099,
+    "source_url": "https://www.openstreetmap.org/relation/6555277"
+  },
+  {
+    "id": 518,
+    "title": "کهگیلویه",
+    "slug": "Kohkiluyeh",
+    "province_id": 18,
+    "latitude": 31.0084761,
+    "longitude": 50.5717335,
+    "source_url": "https://www.openstreetmap.org/relation/6555178"
+  },
+  {
+    "id": 519,
+    "title": "دیر",
+    "slug": "Dayyer",
+    "province_id": 19,
+    "latitude": 27.8412393,
+    "longitude": 51.9372144,
+    "source_url": "https://www.openstreetmap.org/relation/6555031"
+  },
+  {
+    "id": 520,
+    "title": "عسلویه",
+    "slug": "Asaluyeh",
+    "province_id": 19,
+    "latitude": 27.4760027,
+    "longitude": 52.6070411,
+    "source_url": "https://www.openstreetmap.org/relation/6555123"
+  },
+  {
+    "id": 521,
+    "title": "سلطانیه",
+    "slug": "Soltanieh",
+    "province_id": 20,
+    "latitude": 36.4805477,
+    "longitude": 48.8040167,
+    "source_url": "https://www.openstreetmap.org/relation/6555082"
+  },
+  {
+    "id": 522,
+    "title": "میامی",
+    "slug": "Mayami",
+    "province_id": 21,
+    "latitude": 36.4086479,
+    "longitude": 55.6545685,
+    "source_url": "https://www.openstreetmap.org/relation/6555223"
+  },
+  {
+    "id": 523,
+    "title": "اشکذر",
+    "slug": "Ashkezar",
+    "province_id": 22,
+    "latitude": 32.000526,
+    "longitude": 54.2071804,
+    "source_url": "https://www.openstreetmap.org/relation/6554886"
+  },
+  {
+    "id": 524,
+    "title": "زارچ",
+    "slug": "Zarach",
+    "province_id": 22,
+    "latitude": 31.9903361,
+    "longitude": 54.2354245,
+    "source_url": "https://www.openstreetmap.org/relation/6555543"
+  },
+  {
+    "id": 525,
+    "title": "مروست",
+    "slug": "Marvast",
+    "province_id": 22,
+    "latitude": 30.5128039,
+    "longitude": 54.2121923,
+    "source_url": "https://www.openstreetmap.org/relation/14474227"
+  },
+  {
+    "id": 526,
+    "title": "یزد",
+    "slug": "Yazd",
+    "province_id": 22,
+    "latitude": 31.8543268,
+    "longitude": 54.4911994,
+    "source_url": "https://www.openstreetmap.org/relation/6555259"
+  },
+  {
+    "id": 527,
+    "title": "بشاگرد",
+    "slug": "Bashagard",
+    "province_id": 23,
+    "latitude": 26.4550218,
+    "longitude": 57.9021823,
+    "source_url": "https://www.openstreetmap.org/relation/6554932"
+  },
+  {
+    "id": 528,
+    "title": "رودان",
+    "slug": "Rudan",
+    "province_id": 23,
+    "latitude": 27.4413347,
+    "longitude": 57.1909085,
+    "source_url": "https://www.openstreetmap.org/relation/6555047"
+  },
+  {
+    "id": 529,
+    "title": "سیریک",
+    "slug": "Sirik",
+    "province_id": 23,
+    "latitude": 26.5177389,
+    "longitude": 57.101798,
+    "source_url": "https://www.openstreetmap.org/relation/6555094"
+  },
+  {
+    "id": 530,
+    "title": "اصلاندوز",
+    "slug": "AslanDuz",
+    "province_id": 25,
+    "latitude": 39.4417175,
+    "longitude": 47.4102145,
+    "source_url": "https://www.openstreetmap.org/relation/11147752"
+  },
+  {
+    "id": 531,
+    "title": "انگوت",
+    "slug": "Ungut",
+    "province_id": 25,
+    "latitude": 39.045299,
+    "longitude": 47.7448756,
+    "source_url": "https://www.openstreetmap.org/relation/13074227"
+  },
+  {
+    "id": 532,
+    "title": "سرعین",
+    "slug": "Sareyn",
+    "province_id": 25,
+    "latitude": 38.1493746,
+    "longitude": 48.0746208,
+    "source_url": "https://www.openstreetmap.org/relation/6555076"
+  },
+  {
+    "id": 533,
+    "title": "جعفرآباد",
+    "slug": "Jafarabad",
+    "province_id": 26,
+    "latitude": 34.7747682,
+    "longitude": 50.5164348,
+    "source_url": "https://www.openstreetmap.org/relation/6555439"
+  },
+  {
+    "id": 534,
+    "title": "کهک",
+    "slug": "Kahak",
+    "province_id": 26,
+    "latitude": 34.3930163,
+    "longitude": 50.8648024,
+    "source_url": "https://www.openstreetmap.org/relation/6556257"
+  },
+  {
+    "id": 535,
+    "title": "آبیک",
+    "slug": "Abyek",
+    "province_id": 27,
+    "latitude": 36.0416927,
+    "longitude": 50.5320519,
+    "source_url": "https://www.openstreetmap.org/relation/6554855"
+  },
+  {
+    "id": 536,
+    "title": "آوج",
+    "slug": "Avaj",
+    "province_id": 27,
+    "latitude": 35.68053,
+    "longitude": 49.205157,
+    "source_url": "https://www.openstreetmap.org/relation/6554866"
+  },
+  {
+    "id": 537,
+    "title": "ترکمن",
+    "slug": "Torkaman",
+    "province_id": 28,
+    "latitude": 36.8929175,
+    "longitude": 54.0697204,
+    "source_url": "https://www.openstreetmap.org/relation/6554964"
+  },
+  {
+    "id": 538,
+    "title": "مراوه تپه",
+    "slug": "Maraveh Tappeh",
+    "province_id": 28,
+    "latitude": 37.8202261,
+    "longitude": 55.8898013,
+    "source_url": "https://www.openstreetmap.org/relation/6555203"
+  },
+  {
+    "id": 539,
+    "title": "کردکوی",
+    "slug": "Kordkuy",
+    "province_id": 28,
+    "latitude": 36.6946327,
+    "longitude": 54.2051142,
+    "source_url": "https://www.openstreetmap.org/relation/6555166"
+  },
+  {
+    "id": 540,
+    "title": "گالیکش",
+    "slug": "Galikash",
+    "province_id": 28,
+    "latitude": 37.3248813,
+    "longitude": 55.6033781,
+    "source_url": "https://www.openstreetmap.org/relation/6555280"
+  },
+  {
+    "id": 541,
+    "title": "گمیشان",
+    "slug": "Gomishan",
+    "province_id": 28,
+    "latitude": 37.1515864,
+    "longitude": 54.0046079,
+    "source_url": "https://www.openstreetmap.org/relation/6555289"
+  },
+  {
+    "id": 542,
+    "title": "بام‌ و صفی‌آباد",
+    "slug": "Bam and Safiabad",
+    "province_id": 29,
+    "latitude": 36.6945776,
+    "longitude": 57.9280618,
+    "source_url": "https://www.openstreetmap.org/relation/6555367"
+  },
+  {
+    "id": 543,
+    "title": "راز و جرگلان",
+    "slug": "Raz and Jargalan",
+    "province_id": 29,
+    "latitude": 37.9338042,
+    "longitude": 57.1113879,
+    "source_url": "https://www.openstreetmap.org/relation/6555033"
+  },
+  {
+    "id": 544,
+    "title": "سملقان",
+    "slug": "Samalqan",
+    "province_id": 29,
+    "latitude": 37.5603754,
+    "longitude": 56.922995,
+    "source_url": "https://www.openstreetmap.org/relation/6555195"
+  },
+  {
+    "id": 545,
+    "title": "مانه",
+    "slug": "Maneh",
+    "province_id": 29,
+    "latitude": 37.6511535,
+    "longitude": 57.0015687,
+    "source_url": "https://www.openstreetmap.org/relation/6555775"
+  },
+  {
+    "id": 546,
+    "title": "بشرویه",
+    "slug": "Boshruyeh",
+    "province_id": 30,
+    "latitude": 34.174848,
+    "longitude": 57.3527577,
+    "source_url": "https://www.openstreetmap.org/relation/6554933"
+  },
+  {
+    "id": 547,
+    "title": "عشق آباد",
+    "slug": "Eshqabad",
+    "province_id": 30,
+    "latitude": 34.3650838,
+    "longitude": 56.931383,
+    "source_url": "https://www.openstreetmap.org/relation/6555500"
+  },
+  {
+    "id": 548,
+    "title": "اشتهارد",
+    "slug": "Eshtehard",
+    "province_id": 31,
+    "latitude": 35.7234469,
+    "longitude": 50.3670608,
+    "source_url": "https://www.openstreetmap.org/relation/6554885"
+  },
+  {
+    "id": 549,
+    "title": "چهارباغ",
+    "slug": "Chaharbagh",
+    "province_id": 31,
+    "latitude": 35.8368603,
+    "longitude": 50.8508914,
+    "source_url": "https://www.openstreetmap.org/relation/6556321"
+  },
+  {
+    "id": 550,
+    "title": "خوی",
+    "slug": "Khoy",
+    "province_id": 5,
+    "latitude": 38.649,
+    "longitude": 44.761,
+    "source_url": "https://openadmindata.org/ir/counties/khoy-ir029005/"
+  },
+  {
+    "id": 551,
+    "title": "بینالود",
+    "slug": "Torghabe-o-Shandiz",
+    "province_id": 10,
+    "latitude": 36.286,
+    "longitude": 59.282,
+    "source_url": "https://openadmindata.org/ir/counties/torghabe-o-shandiz-ir024004/"
   }
 ]

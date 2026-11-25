@@ -1,0 +1,328 @@
+{
+  "RECORDS": [
+    {
+      "id": "mashhad-shrine",
+      "name": "حرم امام رضا",
+      "slug": "Imam Reza Shrine",
+      "category": "landmark",
+      "province_id": 10,
+      "latitude": 36.2880267,
+      "longitude": 59.615752,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/392608421",
+      "verified_on": "2026-11-25",
+      "collection": "mashhad",
+      "aliases": [
+        "حرم مطهر امام رضا",
+        "Imam Reza Holy Shrine"
+      ]
+    },
+    {
+      "id": "mashhad-imam-reza-hospital",
+      "name": "بیمارستان امام رضا",
+      "slug": "Imam Reza Hospital, Mashhad",
+      "category": "hospital",
+      "province_id": 10,
+      "latitude": 36.2885854,
+      "longitude": 59.590485,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/236694569",
+      "verified_on": "2026-11-25",
+      "collection": "mashhad"
+    },
+    {
+      "id": "mashhad-bazaar-reza",
+      "name": "بازار رضا",
+      "slug": "Bazaar Reza",
+      "category": "market",
+      "province_id": 10,
+      "latitude": 36.2804385,
+      "longitude": 59.6149448,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/50692048",
+      "verified_on": "2026-11-25",
+      "collection": "mashhad",
+      "aliases": [
+        "Reza Bazaar"
+      ]
+    },
+    {
+      "id": "mashhad-koohsangi",
+      "name": "بوستان کوهسنگی",
+      "slug": "Koohsangi Park",
+      "category": "park",
+      "province_id": 10,
+      "latitude": 36.2821524,
+      "longitude": 59.5601331,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/24011399",
+      "verified_on": "2026-11-25",
+      "collection": "mashhad",
+      "aliases": [
+        "Kuh Sangi",
+        "پارک کوه سنگی"
+      ]
+    },
+    {
+      "id": "mashhad-airport",
+      "name": "فرودگاه بین‌المللی شهید هاشمی‌نژاد مشهد",
+      "slug": "Mashhad International Airport",
+      "category": "airport",
+      "province_id": 10,
+      "latitude": 36.234821,
+      "longitude": 59.642949,
+      "point_type": "airport_reference_point",
+      "source_url": "https://ourairports.com/airports/OIMM/",
+      "verified_on": "2026-11-25",
+      "collection": "mashhad",
+      "aliases": [
+        "MHD",
+        "OIMM"
+      ]
+    },
+    {
+      "id": "isfahan-alzahra",
+      "name": "بیمارستان الزهرا",
+      "slug": "Al-Zahra University Hospital",
+      "category": "hospital",
+      "province_id": 11,
+      "latitude": 32.6092237,
+      "longitude": 51.6530124,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/712961921",
+      "verified_on": "2026-11-25",
+      "collection": "isfahan",
+      "aliases": [
+        "بیمارستان الزهرا اصفهان"
+      ]
+    },
+    {
+      "id": "isfahan-si-o-se-pol",
+      "name": "سی‌وسه‌پل",
+      "slug": "Si-o-se-pol Bridge",
+      "category": "landmark",
+      "province_id": 11,
+      "latitude": 32.6445868,
+      "longitude": 51.6675143,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/757378380",
+      "verified_on": "2026-11-25",
+      "collection": "isfahan",
+      "aliases": [
+        "Allahverdi Khan Bridge",
+        "پل الله‌وردی‌خان"
+      ]
+    },
+    {
+      "id": "isfahan-qeysarieh",
+      "name": "سردر بازار قیصریه",
+      "slug": "Qeysarieh Bazaar Gate",
+      "category": "market",
+      "province_id": 11,
+      "latitude": 32.6614664,
+      "longitude": 51.6767914,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/node/3248809487",
+      "verified_on": "2026-11-25",
+      "collection": "isfahan",
+      "aliases": [
+        "Grand Bazaar Isfahan",
+        "Qaysariyyeh Bazaar"
+      ]
+    },
+    {
+      "id": "isfahan-jameh-mosque",
+      "name": "مسجد جامع اصفهان",
+      "slug": "Jameh Mosque of Isfahan",
+      "category": "heritage_site",
+      "province_id": 11,
+      "latitude": 32.6697222,
+      "longitude": 51.6852778,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/en/list/1397/",
+      "verified_on": "2026-11-25",
+      "collection": "isfahan",
+      "aliases": [
+        "Masjed-e Jame of Isfahan",
+        "مسجد عتیق"
+      ]
+    },
+    {
+      "id": "isfahan-airport",
+      "name": "فرودگاه بین‌المللی شهید بهشتی اصفهان",
+      "slug": "Isfahan International Airport",
+      "category": "airport",
+      "province_id": 11,
+      "latitude": 32.755142,
+      "longitude": 51.883877,
+      "point_type": "airport_reference_point",
+      "source_url": "https://ourairports.com/airports/OIFM/",
+      "verified_on": "2026-11-25",
+      "collection": "isfahan",
+      "aliases": [
+        "IFN",
+        "OIFM"
+      ]
+    },
+    {
+      "id": "shiraz-namazi",
+      "name": "بیمارستان نمازی",
+      "slug": "Namazi Hospital",
+      "category": "hospital",
+      "province_id": 8,
+      "latitude": 29.6309873,
+      "longitude": 52.5164629,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/68644366",
+      "verified_on": "2026-11-25",
+      "collection": "shiraz"
+    },
+    {
+      "id": "shiraz-vakil-bazaar",
+      "name": "بازار وکیل",
+      "slug": "Vakil Bazaar",
+      "category": "market",
+      "province_id": 8,
+      "latitude": 29.6176291,
+      "longitude": 52.5489013,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/1189390462",
+      "verified_on": "2026-11-25",
+      "collection": "shiraz"
+    },
+    {
+      "id": "shiraz-eram-garden",
+      "name": "باغ ارم",
+      "slug": "Eram Garden",
+      "category": "heritage_site",
+      "province_id": 8,
+      "latitude": 29.6356224,
+      "longitude": 52.5256592,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/68611018",
+      "verified_on": "2026-11-25",
+      "collection": "shiraz",
+      "aliases": [
+        "Bagh-e Eram"
+      ],
+      "heritage_url": "https://whc.unesco.org/en/list/1372/"
+    },
+    {
+      "id": "shiraz-hafez-tomb",
+      "name": "حافظیه",
+      "slug": "Tomb of Hafez",
+      "category": "landmark",
+      "province_id": 8,
+      "latitude": 29.6257615,
+      "longitude": 52.5583394,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/relation/9498599",
+      "verified_on": "2026-11-25",
+      "collection": "shiraz",
+      "aliases": [
+        "Hafezieh",
+        "آرامگاه حافظ"
+      ]
+    },
+    {
+      "id": "shiraz-airport",
+      "name": "فرودگاه بین‌المللی شهید دستغیب شیراز",
+      "slug": "Shiraz International Airport",
+      "category": "airport",
+      "province_id": 8,
+      "latitude": 29.5392,
+      "longitude": 52.589802,
+      "point_type": "airport_reference_point",
+      "source_url": "https://ourairports.com/airports/OISS/",
+      "verified_on": "2026-11-25",
+      "collection": "shiraz",
+      "aliases": [
+        "SYZ",
+        "OISS"
+      ]
+    },
+    {
+      "id": "tabriz-imam-reza-hospital",
+      "name": "بیمارستان امام رضا",
+      "slug": "Imam Reza Hospital, Tabriz",
+      "category": "hospital",
+      "province_id": 4,
+      "latitude": 38.0554643,
+      "longitude": 46.32306,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/426806871",
+      "verified_on": "2026-11-25",
+      "collection": "tabriz"
+    },
+    {
+      "id": "tabriz-historic-bazaar",
+      "name": "مجموعه بازار تاریخی تبریز",
+      "slug": "Tabriz Historic Bazaar",
+      "category": "market",
+      "province_id": 4,
+      "latitude": 38.081,
+      "longitude": 46.293,
+      "point_type": "site",
+      "source_url": "https://whc.unesco.org/document/217777",
+      "verified_on": "2026-11-25",
+      "collection": "tabriz",
+      "aliases": [
+        "Tabriz Grand Bazaar",
+        "بازار تبریز"
+      ],
+      "heritage_url": "https://whc.unesco.org/en/list/1346/"
+    },
+    {
+      "id": "tabriz-blue-mosque",
+      "name": "مسجد کبود",
+      "slug": "Blue Mosque, Tabriz",
+      "category": "landmark",
+      "province_id": 4,
+      "latitude": 38.0736335,
+      "longitude": 46.3010815,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/495122358",
+      "verified_on": "2026-11-25",
+      "collection": "tabriz",
+      "aliases": [
+        "Goy Masjid",
+        "گوی مسجد"
+      ]
+    },
+    {
+      "id": "tabriz-el-goli",
+      "name": "استخر شاه‌گلی",
+      "slug": "El Goli Pool",
+      "category": "landmark",
+      "province_id": 4,
+      "latitude": 38.0257665,
+      "longitude": 46.3654981,
+      "point_type": "site",
+      "source_url": "https://www.openstreetmap.org/way/237015757",
+      "verified_on": "2026-11-25",
+      "collection": "tabriz",
+      "aliases": [
+        "El Goli Park",
+        "Shah Goli",
+        "ائل‌گلی"
+      ]
+    },
+    {
+      "id": "tabriz-airport",
+      "name": "فرودگاه بین‌المللی شهید مدنی تبریز",
+      "slug": "Tabriz International Airport",
+      "category": "airport",
+      "province_id": 4,
+      "latitude": 38.1339,
+      "longitude": 46.235001,
+      "point_type": "airport_reference_point",
+      "source_url": "https://ourairports.com/airports/OITT/",
+      "verified_on": "2026-11-25",
+      "collection": "tabriz",
+      "aliases": [
+        "TBZ",
+        "OITT"
+      ]
+    }
+  ]
+}
