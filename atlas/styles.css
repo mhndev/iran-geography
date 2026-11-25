@@ -50,12 +50,20 @@ h2 { margin: 18px 0 8px; font-size: 14px; line-height: 1.25; font-weight: 720; }
   border: 1px solid #c2d3c7; border-radius: 9px; background: #fff;
 }
 .search-field:focus-within { outline: 2px solid var(--teal); outline-offset: 1px; }
+#find-on-map { display: grid; place-items: center; flex: none; border: 0; background: transparent; width: 24px; height: 32px; padding: 0; }
 .search-symbol { display: inline-block; width: 14px; height: 14px; border: 1.7px solid var(--teal); border-radius: 50%; position: relative; flex: none; }
 .search-symbol::after { content: ''; width: 6px; height: 1.7px; background: var(--teal); position: absolute; bottom: -2px; right: -4px; transform: rotate(45deg); }
 #query { min-width: 0; width: 100%; border: 0; background: transparent; color: var(--ink); outline: none; font-size: 15px; }
 #query::-webkit-search-cancel-button { display: none; }
 #clear-search { border: 0; background: transparent; padding: 0 3px; font-size: 22px; line-height: 1; }
 .report-missing { display: inline-block; margin-block-start: 8px; font-size: 13px; }
+.lookup-history { margin-block-start: 6px; font-size: 13px; }
+.lookup-history summary { cursor: pointer; color: var(--teal); }
+.lookup-history p, #search-scope-note { margin: 6px 0; color: var(--muted); font-size: 13px; }
+#lookup-history { margin: 0; padding-inline-start: 18px; }
+#lookup-history li { margin-block: 7px; overflow-wrap: anywhere; }
+#lookup-history a { margin-inline-start: 8px; }
+.text-action { background: transparent; border: 0; color: var(--teal); padding: 4px 0; text-decoration: underline; }
 .pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .pill { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #d8e3d9; color: #264c42;
   background: #f3f7f0; font-size: 14px; line-height: 1.25; border-radius: 6px; padding: 5px 8px; }
@@ -97,9 +105,15 @@ h2 { margin: 18px 0 8px; font-size: 14px; line-height: 1.25; font-weight: 720; }
 .map-kicker { display: block; color: var(--teal); font-size: 12px; letter-spacing: .13em; font-weight: 750; }
 #map-title { display: block; font: 22px Georgia, serif; overflow-wrap: anywhere; }
 [lang="fa"] #map-title { font: 700 19px system-ui, sans-serif; }
-.map-actions { display: flex; gap: 6px; position: absolute; bottom: 30px; inset-inline-start: 17px; z-index: 500; }
+.map-actions { display: flex; flex-wrap: wrap; gap: 6px; position: absolute; bottom: 30px; inset-inline: 17px; z-index: 500; pointer-events: none; }
 .map-actions button { min-height: 34px; border-radius: 6px; padding: 4px 9px; font-size: 14px; }
+.map-actions button { pointer-events: auto; }
 .map-actions button[aria-pressed="true"], .map-actions button:hover { background: #e1efe3; }
+.identify-help { position: absolute; z-index: 500; top: 68px; inset-inline-start: 17px; margin: 0;
+  max-width: min(290px, 75%); padding: 7px 10px; border-radius: 6px; background: #fffffa; font-size: 13px; pointer-events: none; }
+#map.is-identifying, #map.is-identifying .leaflet-interactive { cursor: crosshair; }
+.lookup-popup strong { display: block; padding-inline-end: 6px; }
+.lookup-popup p { margin: 5px 0; }
 .leaflet-marker-icon.atlas-marker {
   display: grid; place-items: center; border-radius: 8px; border: 1.5px solid #fcfcf6;
   background: var(--swatch); color: #fff; box-shadow: 0 1px 4px #113e3866;

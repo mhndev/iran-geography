@@ -1,4 +1,4 @@
-import { buildEntries, distanceKm, nearestStation, normalize, searchEntries } from './data.mjs';
+import { buildEntries, distanceKm, lookupRadiusKm, nearestPlace, nearestStation, normalize, searchEntries } from './data.mjs?v=point-lookup';
 import { layerIcon } from './icons.mjs';
 
 const L = window.L;
@@ -7,12 +7,19 @@ const messages = {
   en: {
     repository: 'Repository', atlasLabel: 'IRAN GEOGRAPHY', explore: 'Explore Iran',
     searchLabel: 'Search places', searchPlaceholder: 'Search in Persian or English…', clear: 'Clear search',
+    findOnMap: 'Find on map',
     collections: 'Collections', categories: 'Map layers', provinces: 'Provinces', counties: 'Counties & places',
     places: 'Places', matches: 'Search results', more: 'Show more', mapLabel: 'MAP VIEW',
     overview: 'Iran overview', streetMap: 'Street map', iran: 'Iran', removeScope: 'Clear',
     loading: 'Loading the atlas…', empty: 'No matching places.', failed: 'The atlas could not load. Serve the repository root over HTTP and reload.',
     close: 'Close place details', source: 'View source', verified: 'Source checked', exactLocation: 'Coordinates',
     reportCorrection: 'Report a correction on GitHub', reportMissing: 'Suggest a missing place on GitHub',
+    identifyPoint: 'Identify a point', identifyHelp: 'Click the map to find the nearest mapped place. With the map focused, press Enter to check its centre.',
+    unknownPoint: 'Sorry, there’s no mapped place within 500 m.',
+    searchAll: 'Searching all of Iran because there are no matches in this selection.',
+    savedLookups: 'Unmatched lookups', clearLookups: 'Clear saved lookups', shareLookup: 'Share on GitHub',
+    lookupPrivacy: 'Unmatched pins and searches you submit are saved in this browser. Share only details you’re comfortable posting publicly.',
+    lookupSession: 'Browser storage is unavailable. Unmatched lookups will last until you close or reload this page.',
     nearest: 'Nearest mapped metro station', straightLine: 'straight-line distance', line: 'Line',
     interchange: 'Interchange', entrance: 'Mapped entrance', entrances: 'Mapped entrances',
     airportPin: 'Airport reference point', sitePin: 'Site pin', stopPin: 'Station reference point',
@@ -33,12 +40,19 @@ const messages = {
   fa: {
     repository: 'مخزن پروژه', atlasLabel: 'جغرافیای ایران', explore: 'ایران را بگردید',
     searchLabel: 'جست‌وجوی مکان‌ها', searchPlaceholder: 'جست‌وجو به فارسی یا انگلیسی…', clear: 'پاک کردن جست‌وجو',
+    findOnMap: 'یافتن روی نقشه',
     collections: 'مجموعه‌ها', categories: 'لایه‌های نقشه', provinces: 'استان‌ها', counties: 'شهرستان‌ها و مکان‌ها',
     places: 'مکان‌ها', matches: 'نتایج جست‌وجو', more: 'نمایش بیشتر', mapLabel: 'نمای نقشه',
     overview: 'نمای سراسر ایران', streetMap: 'نقشه خیابان‌ها', iran: 'ایران', removeScope: 'پاک کردن',
     loading: 'در حال بارگیری اطلس…', empty: 'مکانی پیدا نشد.', failed: 'اطلس بارگیری نشد. مخزن پروژه را با یک سرور محلی باز کنید.',
     close: 'بستن جزئیات مکان', source: 'مشاهده منبع', verified: 'تاریخ بررسی منبع', exactLocation: 'مختصات',
     reportCorrection: 'گزارش اشتباه در گیت‌هاب', reportMissing: 'پیشنهاد مکانِ ثبت‌نشده در گیت‌هاب',
+    identifyPoint: 'شناسایی نقطه', identifyHelp: 'برای یافتن نزدیک‌ترین مکان ثبت‌شده روی نقشه بزنید. اگر نقشه در فوکوس است، برای بررسی مرکز آن Enter را بزنید.',
+    unknownPoint: 'متأسفانه، تا ۵۰۰ متری این نقطه مکانی در اطلس ثبت نشده است.',
+    searchAll: 'در محدودهٔ انتخاب‌شده نتیجه‌ای نبود. نتایج کل ایران نمایش داده می‌شود.',
+    savedLookups: 'جست‌وجوهای بی‌نتیجه', clearLookups: 'پاک کردن موارد ذخیره‌شده', shareLookup: 'اشتراک در گیت‌هاب',
+    lookupPrivacy: 'نقاط و جست‌وجوهای بی‌نتیجه در این مرورگر ذخیره می‌شوند. فقط اطلاعاتی را به اشتراک بگذارید که با انتشار عمومی آن‌ها موافقید.',
+    lookupSession: 'حافظهٔ مرورگر در دسترس نیست. موارد بی‌نتیجه با بستن یا بارگیری دوبارهٔ صفحه پاک می‌شوند.',
     nearest: 'نزدیک‌ترین ایستگاه مترو', straightLine: 'فاصله مستقیم', line: 'خط',
     interchange: 'ایستگاه تقاطعی', entrance: 'ورودی ثبت‌شده', entrances: 'ورودی‌های ثبت‌شده',
     airportPin: 'نقطه مرجع فرودگاه', sitePin: 'نقطه مکان', stopPin: 'نقطه مرجع ایستگاه',
@@ -81,6 +95,11 @@ const state = {
   language: 'en', province: null, county: null, city: null, collection: null, category: '', entry: null, limit: 20,
   layers: new Set(groups.map(group => group.label)),
 };
+const lookupStorageKey = 'iran-atlas.unmatched-lookups.v1';
+let canSaveLookups = true;
+let unmatchedLookups = readLookups();
+let identifying = false;
+let pointLookup = null;
 let entries = [];
 let provinces = [];
 let counties = [];
@@ -94,6 +113,7 @@ map.attributionControl.addAttribution('<a href="https://www.openstreetmap.org/co
 const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 });
 const markers = L.layerGroup().addTo(map);
 const labels = L.layerGroup().addTo(map);
+const lookupPopup = L.popup({ className: 'lookup-popup', maxWidth: 260 });
 
 function t(key) {
   return messages[state.language][key] ?? key;
@@ -139,14 +159,84 @@ function correctionUrl(entry) {
   ]);
 }
 
-function missingPlaceUrl() {
+function missingPlaceUrl(lookup) {
   const area = [state.province, state.county, state.city].filter(Boolean).map(entry => entry.slug).join(' / ');
   return reportUrl('Missing place on the map', [
     '### Place name and category\n\n<!-- Include the Persian name if known. -->',
     '### Location\n\n<!-- Include the province, city or county, and coordinates or a map link. -->',
     '### Source\n\n<!-- Link to an official page or other source, if available. -->',
-    ...(area ? [`### Atlas area when reported\n\n${area}`] : []),
+    ...(lookup ? [`### Unmatched atlas lookup\n\n${lookup.kind === 'point'
+      ? `Clicked coordinates (latitude, longitude): ${lookup.value}`
+      : `Search text:\n\n> ${lookup.value}`}`] : []),
+    ...(!lookup && area ? [`### Atlas area when reported\n\n${area}`] : []),
   ]);
+}
+
+function readLookups() {
+  try {
+    const records = JSON.parse(localStorage.getItem(lookupStorageKey) ?? '[]');
+    return Array.isArray(records) ? records.filter(record => ['point', 'query'].includes(record?.kind)
+      && typeof record.value === 'string').slice(0, 50) : [];
+  } catch {
+    canSaveLookups = false;
+    return [];
+  }
+}
+
+function saveLookups(records) {
+  unmatchedLookups = records;
+  try {
+    if (records.length) localStorage.setItem(lookupStorageKey, JSON.stringify(records));
+    else localStorage.removeItem(lookupStorageKey);
+    canSaveLookups = true;
+  } catch {
+    canSaveLookups = false;
+  }
+  renderLookups();
+}
+
+function rememberLookup(lookup) {
+  const records = unmatchedLookups.filter(record => record.kind !== lookup.kind || record.value !== lookup.value);
+  saveLookups([lookup, ...records].slice(0, 50));
+}
+
+function renderLookups() {
+  byId('lookup-storage').textContent = t(canSaveLookups ? 'lookupPrivacy' : 'lookupSession');
+  byId('clear-lookups').hidden = !unmatchedLookups.length;
+  byId('lookup-history').replaceChildren(...unmatchedLookups.map(lookup => {
+    const row = element('li');
+    const value = element('bdi', lookup.value);
+    row.append(value, safeSource(missingPlaceUrl(lookup), t('shareLookup')));
+    return row;
+  }));
+}
+
+function pointLookupContent() {
+  const { match, lookup } = pointLookup;
+  const content = element('div');
+  const heading = element('strong', match ? name(match.entry) : t('unknownPoint'));
+  heading.dir = 'auto';
+  const detail = match ? `${t(match.entry.kind)} · ${localizedDistance(match.distance)}` : lookup.value;
+  content.append(heading, element('p', detail));
+  if (!match) content.append(safeSource(missingPlaceUrl(lookup), t('shareLookup')));
+  return content;
+}
+
+function identifyAt({ lat, lng }) {
+  const longitude = L.Util.wrapNum(lng, [-180, 180], true);
+  const value = [lat, longitude].map(value => value.toFixed(5)).join(', ');
+  const lookup = { kind: 'point', value };
+  const match = nearestPlace([lat, longitude], entries, lookupRadiusKm);
+  pointLookup = { match, lookup };
+  if (!match) rememberLookup(lookup);
+  lookupPopup.setLatLng([lat, lng]).setContent(pointLookupContent()).openOn(map);
+}
+
+function setIdentifying(enabled) {
+  identifying = enabled;
+  byId('identify-point').setAttribute('aria-pressed', String(enabled));
+  byId('identify-help').hidden = !enabled;
+  byId('map').classList.toggle('is-identifying', enabled);
 }
 
 function name(entry) {
@@ -167,6 +257,10 @@ function changeLanguage() {
   for (const node of document.querySelectorAll('[data-text]')) node.textContent = t(node.dataset.text);
   byId('query').placeholder = t('searchPlaceholder');
   byId('clear-search').setAttribute('aria-label', t('clear'));
+  byId('find-on-map').setAttribute('aria-label', t('findOnMap'));
+  byId('find-on-map').title = t('findOnMap');
+  if (lookupPopup.isOpen()) lookupPopup.setContent(pointLookupContent());
+  renderLookups();
   drawLabels();
   render();
 }
@@ -307,11 +401,21 @@ function choose(entry, focusDetail = false) {
   }
 }
 
+function chooseSearchResult(entry) {
+  if (!inScope(entry) || (state.category && groupFor(entry)?.label !== state.category)) {
+    state.province = state.county = state.city = state.collection = null;
+    state.category = '';
+  }
+  const group = groupFor(entry);
+  if (group) state.layers.add(group.label);
+  choose(entry, true);
+}
+
 function scopeName() {
   return state.collection ? t(state.collection) : state.city ? name(state.city) : state.county ? name(state.county) : state.province ? name(state.province) : '';
 }
 
-function resultButton(entry) {
+function resultButton(entry, isSearchResult) {
   const row = element('li');
   const button = element('button', null, 'result');
   button.type = 'button';
@@ -324,7 +428,7 @@ function resultButton(entry) {
   if (name(entry) !== secondName(entry)) names.append(subtitle);
   const group = groupFor(entry);
   button.append(layerIcon(iconKind(entry), group?.color ?? '#438769'), names, element('span', t(entry.kind), 'result-kind'));
-  button.addEventListener('click', () => choose(entry, true));
+  button.addEventListener('click', () => isSearchResult ? chooseSearchResult(entry) : choose(entry, true));
   row.append(button);
   return row;
 }
@@ -447,7 +551,9 @@ function drawMarkers() {
       const title = `${cell.length} ${t('cluster')}`;
       L.marker(locations.getCenter(), {
         title, alt: title, icon: L.divIcon({ className: 'atlas-cluster', html: label, iconSize: [iconSize, iconSize] }),
+        bubblingMouseEvents: true,
       }).on('click', () => {
+        if (identifying) return;
         if (zoom < 17) map.fitBounds(locations, { maxZoom: Math.min(18, zoom + 2), padding: [48, 48] });
         else choose(cell[0], true);
       }).addTo(markers);
@@ -466,10 +572,11 @@ function drawMarkers() {
     const badge = layerIcon(iconKind(entry));
     const marker = L.marker(entry.coordinates, {
       title: name(entry), alt: name(entry), zIndexOffset: selected ? 1000 : 0,
+      bubblingMouseEvents: true,
       icon: L.divIcon({ className: 'atlas-marker' + (selected ? ' is-selected' : ''), html: badge, iconSize: [size, size] }),
     });
     marker.on('add', () => marker.getElement()?.style.setProperty('--swatch', group?.color ?? '#438769'));
-    marker.on('click', () => choose(entry, true)).addTo(markers);
+    marker.on('click', () => { if (!identifying) choose(entry, true); }).addTo(markers);
   }
   if (active?.kind === 'metro' && state.layers.has('metroFilter')) {
     for (const entrance of active.entrances) {
@@ -551,17 +658,19 @@ function render() {
   const scoped = entries.filter(inScope);
   const overview = !query && !state.category && !state.collection && !state.province;
   const categoryEntries = state.category ? scoped.filter(entry => groupFor(entry)?.label === state.category) : scoped;
-  const matches = query ? searchEntries(scoped, query) : scoped;
-  const browsable = query ? matches.filter(entry => !state.category || groupFor(entry)?.label === state.category)
+  const matches = query ? searchEntries(categoryEntries, query) : scoped;
+  const nationwideMatches = query && !matches.length && (scopeName() || state.category) ? searchEntries(entries, query) : [];
+  byId('search-scope-note').hidden = !nationwideMatches.length;
+  const browsable = query ? (nationwideMatches.length ? nationwideMatches : matches)
     : overview ? provinces : categoryEntries.filter(entry => entry.kind !== 'province'
       && entry.id !== state.county?.id && entry.id !== state.city?.id);
-  shown = matches.filter(entry => entry.kind !== 'province');
+  shown = (query ? browsable : matches).filter(entry => entry.kind !== 'province');
   byId('results-title').textContent = t(query ? 'matches' : overview ? 'provinces'
     : state.province && !state.county ? 'counties' : 'places');
   byId('result-count').textContent = new Intl.NumberFormat(state.language).format(browsable.length);
   byId('status').textContent = entries.length ? t('empty') : t('loading');
   byId('status').hidden = browsable.length > 0;
-  byId('results').replaceChildren(...browsable.slice(0, state.limit).map(resultButton));
+  byId('results').replaceChildren(...browsable.slice(0, state.limit).map(entry => resultButton(entry, Boolean(query))));
   byId('more').hidden = state.limit >= browsable.length;
   for (const [id, layer] of regionLayers) layer.setStyle(paintRegion(id));
   setDetail();
@@ -593,7 +702,7 @@ async function init() {
       regionLayers.set(id, layer);
       const province = provinceById.get(id);
       layer.bindTooltip(() => element('span', name(province)), { sticky: true });
-      layer.on('click', () => selectProvince(province));
+      layer.on('click', () => { if (!identifying) selectProvince(province); });
     },
   }).addTo(map);
   iranBounds = boundaries.getBounds();
@@ -625,8 +734,14 @@ async function init() {
   byId('query').addEventListener('input', () => { resetList(); render(); });
   byId('search-form').addEventListener('submit', event => {
     event.preventDefault();
+    const query = byId('query').value.trim();
+    if (!normalize(query)) return;
     const first = byId('results').querySelector('button');
-    if (byId('query').value && first) first.click();
+    if (first) first.click();
+    else {
+      rememberLookup({ kind: 'query', value: query.replace(/\s+/g, ' ') });
+      byId('lookup-history').closest('details').open = true;
+    }
   });
   byId('clear-search').addEventListener('click', () => {
     byId('query').value = '';
@@ -635,6 +750,28 @@ async function init() {
     render();
   });
   byId('more').addEventListener('click', () => { state.limit += 20; render(); });
+  byId('identify-point').disabled = false;
+  byId('identify-point').addEventListener('click', () => {
+    setIdentifying(!identifying);
+    if (identifying) byId('map').focus({ preventScroll: true });
+    else lookupPopup.remove();
+  });
+  byId('map').addEventListener('keydown', event => {
+    if (!identifying || event.target !== byId('map')) return;
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      identifyAt(map.getCenter());
+    }
+    if (event.key === 'Escape') {
+      setIdentifying(false);
+      lookupPopup.remove();
+      byId('identify-point').focus();
+    }
+  });
+  map.on('click', event => {
+    if (!identifying) return;
+    identifyAt(event.originalEvent.detail ? map.mouseEventToLatLng(event.originalEvent) : event.latlng);
+  });
   byId('reset').addEventListener('click', showOverview);
   byId('streets').addEventListener('click', () => {
     if (map.hasLayer(streets)) map.removeLayer(streets);
@@ -649,6 +786,8 @@ async function init() {
 }
 
 byId('report-missing').href = missingPlaceUrl();
+byId('clear-lookups').addEventListener('click', () => saveLookups([]));
+renderLookups();
 init().catch(error => {
   console.error(error);
   byId('status').textContent = t('failed');

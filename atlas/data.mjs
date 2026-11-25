@@ -160,11 +160,20 @@ export function distanceKm([latA, lonA], [latB, lonB]) {
   return 12742 * Math.asin(Math.sqrt(Math.min(a, 1)));
 }
 
-export function nearestStation(coordinates, stations) {
+export const lookupRadiusKm = 0.5;
+
+export function nearestPlace(coordinates, entries, maxDistance = Infinity) {
   let nearest = null;
-  for (const station of stations) {
-    const distance = distanceKm(coordinates, station.coordinates);
-    if (nearest === null || distance < nearest.distance) nearest = { station, distance };
+  for (const entry of entries) {
+    const distance = distanceKm(coordinates, entry.coordinates);
+    if (distance <= maxDistance && (nearest === null || distance < nearest.distance)) {
+      nearest = { entry, distance };
+    }
   }
   return nearest;
+}
+
+export function nearestStation(coordinates, stations) {
+  const nearest = nearestPlace(coordinates, stations);
+  return nearest && { station: nearest.entry, distance: nearest.distance };
 }

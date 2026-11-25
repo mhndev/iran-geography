@@ -7,9 +7,9 @@
   <title>Iran Atlas</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="./vendor/leaflet.css">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=point-lookup">
   <script defer src="./vendor/leaflet.js"></script>
-  <script type="module" src="./app.mjs"></script>
+  <script type="module" src="./app.mjs?v=point-lookup"></script>
 </head>
 <body>
   <header class="masthead">
@@ -30,12 +30,18 @@
       <form id="search-form" role="search">
         <label for="query" class="visually-hidden" data-text="searchLabel">Search places</label>
         <div class="search-field">
-          <span class="search-symbol" aria-hidden="true"></span>
-          <input id="query" type="search" autocomplete="off" placeholder="Search in Persian or English…" dir="auto">
+          <button type="submit" id="find-on-map" aria-label="Find on map" title="Find on map"><span class="search-symbol" aria-hidden="true"></span></button>
+          <input id="query" type="search" autocomplete="off" enterkeyhint="search" maxlength="160" placeholder="Search in Persian or English…" dir="auto">
           <button id="clear-search" type="button" aria-label="Clear search" hidden>×</button>
         </div>
       </form>
       <a id="report-missing" class="report-missing" href="https://github.com/mhndev/iran-geography/issues/new" target="_blank" rel="noopener noreferrer" data-text="reportMissing">Suggest a missing place on GitHub</a>
+      <details class="lookup-history">
+        <summary data-text="savedLookups">Unmatched lookups</summary>
+        <p id="lookup-storage" aria-live="polite" data-text="lookupPrivacy">Unmatched pins and searches you submit are saved in this browser. Share only details you’re comfortable posting publicly.</p>
+        <ul id="lookup-history"></ul>
+        <button type="button" id="clear-lookups" class="text-action" data-text="clearLookups" hidden>Clear saved lookups</button>
+      </details>
       <section aria-labelledby="collections">
         <h2 id="collections" data-text="collections">Collections</h2>
         <div id="collection-list" class="pills"></div>
@@ -62,6 +68,7 @@
         </div>
         <label class="list-filter"><span data-text="listCategory">List category</span><select id="list-category"></select></label>
         <p id="status" role="status">Loading the atlas…</p>
+        <p id="search-scope-note" data-text="searchAll" hidden>Searching all of Iran because there are no matches in this selection.</p>
         <ul id="results"></ul>
         <button type="button" id="more" hidden data-text="more">Show more</button>
       </section>
@@ -73,9 +80,11 @@
         <strong id="map-title">Iran</strong>
       </div>
       <div class="map-actions">
+        <button type="button" id="identify-point" aria-pressed="false" data-text="identifyPoint" disabled>Identify a point</button>
         <button type="button" id="reset" data-text="overview">Iran overview</button>
         <button type="button" id="streets" aria-pressed="false" data-text="streetMap">Street map</button>
       </div>
+      <p id="identify-help" class="identify-help" role="status" data-text="identifyHelp" hidden>Click the map to find the nearest mapped place. With the map focused, press Enter to check its centre.</p>
     </section>
   </main>
 </body>

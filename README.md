@@ -20,6 +20,10 @@ Use **Browse by area** to choose a province, county, or city. The city view show
 
 [Open the live atlas](https://mhndev.github.io/iran-geography/atlas/) on GitHub Pages.
 
+Search in Persian or English and press Enter to locate the first result. If there are no matches in the selected area or category, the atlas searches all of Iran. Choose **Identify a point** and click the map to see the nearest mapped place within 500 metres, measured in a straight line.
+
+The atlas keeps the 50 most recent distinct unmatched points and submitted searches in the current browser. Open **Unmatched lookups** to clear them or share individual items as GitHub issue drafts for review. GitHub receives the selected lookup when you choose to share it and creates a public issue only after you submit the draft.
+
 To flag a wrong pin or name, open the place details and select **Report a correction on GitHub**. The draft includes the atlas ID, current coordinates, and source. Use **Suggest a missing place on GitHub** below the search box for an unlisted location. Add a source if you have one, then sign in to GitHub to submit the public issue for review.
 
 ## Data files
